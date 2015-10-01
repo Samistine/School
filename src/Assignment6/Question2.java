@@ -1,4 +1,4 @@
-package Assignment16;
+package Assignment6;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
