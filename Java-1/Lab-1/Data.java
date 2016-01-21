@@ -1,5 +1,11 @@
+/****************************************
+ *      Lab 1                           *
+ *      Samuel Seidel                   *
+ *      January 21, 2016                *
+ ****************************************/
 public class Data {
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         int age = 17;
         int salary = 250000;
         int iq = 129;

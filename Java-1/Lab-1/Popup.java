@@ -3,11 +3,15 @@
  *      Samuel Seidel                   *
  *      January 21, 2016                *
  ****************************************/
-public class Names {
+
+import javax.swing.JOptionPane;
+
+public class Popup {
     public static void main (String[] args) {
-        String firstName = "Samuel";
-        String lastName = "Seidel";
-        System.out.println(firstName);
-        System.out.println(lastName);
+       JOptionPane.showMessageDialog(null,
+              "The Falcons are going to win the Super Bowl in 2016!!",
+              "Go Braves",
+              JOptionPane.INFORMATION_MESSAGE
+       );
     }
 }
