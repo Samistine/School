@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samuel Seidel | About Me</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="author" content="Samuel Seidel">
+  </head>
+  <body>
+  
+    <a href="#" id="get_location">Get location</a>
+    <div id="map">
+        <iframe id="google_maps" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com?output=embed"></iframe>
+    </div>
+  
+    <script>
+        document.getElementById('get_location').onclick = function() {
+            navigator.geolocation.getCurrentPosition(doLocation);
+        }
+        var doLocation = function(pos) {
+            var coords = pos.coords.latitude + ',' + pos.coords.longitude;
+            document.getElementById('google_maps').setAttribute('src', 'https://maps.google.com/?q=' + coords + '&output=embed')        
+        }
+    </script>
+  </body>
+</html>

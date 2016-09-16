@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- This took 6-7 hours of work, the folded corner took a good chunk of that time -->
+<html>
+  <head>
+    <title>Samuel Seidel | Projects</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="author" content="Samuel Seidel">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      #Content article a {        color: inherit;        }
+      #Content article {        margin-bottom: 50px;      }
+    </style>
+        <script src="canvas.js"></script>
+  </head>
+  <body>
+    <div id="Wrapper" class="container">
+
+      <header id="Header" class="box box-header">
+        <canvas id="canvas_logo">        
+          <h1>Samuel Seidel</h1>
+          <h2>Portfolio</h2>
+        </canvas>
+      </header>
+
+      <nav class="box box-leftcolumn">
+        <header>
+          <h3>Navigational Links</h3>
+        </header>
+        <ul class="center">
+          <li><a href="index.html">Main</a></li>
+          <li class="selected"><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+      <div class="box box-middlecolumn" id="Content" style="padding-bottom: 0px; padding-top:45px">
+        <div class="padding">
+
+
+          <article id="Solar_Camera" class="center grad1">
+            <header><h3>Solar powered camera</h3></header>
+            <p>Completely offgrid camera, able to run two to three days without any sunlight, using its battery.<br/> When the sun comes back out the battery is recharged.</p>
+            <!--Images-->
+            <figure class="marginbottom5px">
+              <img alt="Building Enclosure" src="ZpmaWNV.jpg" width="400"/>
+              <img alt="Building Enclosure" src="JOAov3y.jpg" width="400"/>
+              <figcaption>Building Enclosure</figcaption>
+            </figure>
+            <figure>
+              <img src="W0rYDew.jpg" width="400"/>
+              <figcaption>Deployment</figcaption>
+            </figure>
+            <!--END Images END-->
+          </article>
+
+
+          <article id="Timelapse" class="center grad1-reverse" style="max-width:856px">
+            <header><h3>Timelapse</h3></header>
+            <p>I assembled individual pictures (frames), taken throughout an hour, into a video clip.</p>
+            <p>To accomplish this, I used the <a href="https://www.ffmpeg.org/">ffmpeg</a> binary within git bash.</p>
+            <div class="aspect-ratio-16_9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/RUzCiLFcBcg" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </article>
+
+
+          <article class="center grad1">
+            <header><h3>Minecraft server</h3></header>
+            <p>I have owned and operated a minecraft network since late 2013.</p>
+            <object data="https://minecraft-statistic.net/en/userbars/560x90/server/30112.png" type="image/png">
+               <img alt="Server Stats" src="30112.png" />
+            </object>
+            <div style="color:red; font-weight: bold">
+              <a href="wiki.samistine.com">Wiki</a> | <a href="mc.samistine.com">Site</a> | <a href="ts3server://samistine.com/">Teamspeak</a>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="box box-rightcolumn">
+        <table class="tg2 center" id="ContactInformation">
+          <thead>
+            <tr><th class="tg2-header">Contact Information</th></tr>
+          </thead>
+          <tbody>
+            <tr><th class="tg2-altcolor bold">Email</th></tr>
+            <tr><td class="tg2-altcolor"><a href="mailto:samuel@samistine.com">samuel@samistine.com</a></td></tr>
+            <tr><th class="bold">Phone</th></tr>
+            <tr><td>678.576.7222</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <footer id="Footer" class="box box-footer center">
+        <p>Samuel Seidel - <span class="underline"><a href="mailto:samuel@samistine.com">samuel@samistine.com</a></span></p>
+      </footer>
+
+    </div>
+  </body>
+</html>

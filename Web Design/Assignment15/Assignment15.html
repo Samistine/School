@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samuel Seidel | About Me</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="author" content="Samuel Seidel">
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        /**ul {  list-style-type: none;  text-decoration: none;  }**/
+        h1, h2, h3, h4, h5 {  padding: 10px;  }
+        body {
+          background-color: #b0e0e6;
+          font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+          line-height: 1em;
+          color: #8A2BE2;
+          padding-top: 30px;
+          min-width: 340px;
+        }
+        nav header {  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace  }
+        /**nav li {
+          padding: 14px 16px;
+          margin: 4px 6px;
+          width: 8em;
+          background-color: #7FFFD4;
+          display: inline-block;
+        }
+        nav li:hover {  background-color: #000000;  }
+        nav li a {  color: #8B0000;  }**/
+
+        figure {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 6px;
+          background-color: #F0F8FF;
+        }
+        figure figcaption {  padding-top: 6px;  }
+
+        /** Utility Classes **/
+        .center {  text-align: center;  }
+        .underline {  text-decoration: underline;  }
+        .column {  margin-right: 0;  margin-left: 0;  }
+        .column.fixed {  flex: none;  }
+        .column.dynamic {  flex: auto;  }
+        /** END Utility Classes END **/
+        @media all and (min-width: 700px) {
+          #Wrapper { max-width: 1100px; min-width: 700px;  }
+        }
+
+        /**#Header {  background-color: #000000;  }**/
+
+        /*** Content ***/
+        #Content {      
+          display: flex;
+          justify-content: center;
+        }
+        #Content > #Center,#Left,#Right { padding-top: 10px; padding-bottom: 10px; }
+        #Content #Left,#Right {  background-color: #40e0d0; width: 180px;}
+        #Content #Center {  background-color: #00bfff; min-width: 340px; padding: 10px 0 82px;}
+        @media all and (max-width: 700px) {
+          #Content {  flex-flow: row wrap;  }
+          #Content .column.fixed,.column.dynamic {  flex: 1 100%;  }
+        }
+        /*** END Content END ***/
+
+
+        #Footer {  background-color: #1e90ff;  }
+        #Footer p { padding: 15px 0; }
+        
+        
+        
+        /** Assignment 15 Changes **/
+        body {padding-bottom: 30px;}
+        
+        #Header {
+          background-color: #000000;
+          margin-bottom: 20px;
+          border-radius: 10px;
+          border: 1px solid gray;
+          box-shadow: 4px 4px 8px gray;
+        }
+        
+        nav li {  display: inline-block;  }
+        nav li a {
+          color: #8B0000;
+          border: 1px solid purple;
+          background-color: #7FFFD4;
+          padding: 14px 16px;
+          margin: 4px 6px;
+          width: 8em;display: inline-block;
+          box-shadow: 2px 2px 2px green;
+          text-decoration: none;
+        }
+        nav li a:hover {  background-color: green;  }
+        
+        article header {
+          border-radius: 10px;
+          background: linear-gradient(to bottom, #cfe7fa 0%,#6393c1 100%);
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        
+        #Content #Center {
+          background-image: url(https://avatars1.githubusercontent.com/u/7032358?v=3&s=50);
+          background-position: right bottom;
+          background-repeat: no-repeat;
+        }
+        
+    </style>
+  </head>
+  <body>
+
+    <div id="Wrapper">
+
+      <header id="Header" class="center">
+        <h1>Samuel Seidel</h1>
+        <h2>Portfolio</h2>
+      </header>
+
+
+      <div id="Content" class="center">
+
+        <div id="Left" class="column fixed">  
+          <nav>
+            <header>
+              <h3>Navigational Links</h3>
+            </header>
+            <ul>
+              <li><a href="https://samistine.com/">My Website</a></li>
+              <li><a href="https://mc.samistine.com/">Minecraft</a></li>
+              <li><a href="https://github.com/Samistine/">Github</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="Center" class="column dynamic">
+          <!--Begin Filler-->
+          <figure>
+            <img style="height:400px; width: 225px;" src="Ng0EPBw.png" alt="Samuel Seidel">
+            <figcaption>Samuel Seidel</figcaption>
+          </figure>
+
+          <section>
+            <header> 
+              <h2>Me:</h2> 
+            </header>
+
+            <article>
+              <header>
+                <h3 class="underline">Who I am</h3>
+              </header>
+              <p>Hi, I'm Samuel. I am currently a student at Chattahoochee Technical College.</p>
+            </article>
+
+            <article>
+              <header>
+                <h3 class="underline">What I do</h3>
+              </header>
+              <p>I am a Java programmer! I also love taking things apart.</p>
+            </article>
+          </section>
+          <!--End Filler-->
+        </div>
+
+        <div id="Right" class="column fixed">Right</div>
+      </div>
+
+
+      <footer id="Footer" class="center">
+        <p>Samuel Seidel - <span class="underline">samuel@samistine.com</span></p>
+      </footer>
+
+    </div>
+  </body>
+</html>

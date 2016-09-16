@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header, section, footer, aside, nav, article { display: block; }
+body {
+    text-align: center;
+    background-color: #008c8c;
+    background-image: url("https://mc.samistine.com/ChatLog/res/3px-tile.png");
+    background-attachment: fixed;
+}
+header { text-align: center; }
+h1 { font: bold 40px Tahoma; }
+h2 { font: bold 18px Tahoma; }
+nav li { list-style: none; display: inline-block; padding: 0 10px; }
+
+/** Wraps everything in a div tag **/
+#main_content {
+    border: 1px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+header.main {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #ff6600;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+nav.main header {
+  background: #66ccff;
+  max-width: 200px;
+  margin:0 auto;
+} nav.main ul {
+  background: #66ccff;
+  border-bottom: 1px solid #333399;
+} nav.main li {
+  margin: 5px 1px;
+  padding: 2px 20px;
+  background: #ff9900;
+} nav.main li:hover {
+  margin: 5px 1px;
+  padding: 2px 20px;
+  background-color: #F0F8FF;
+}
+
+/** Story Of My Life **/
+.sector_tractor_beam {
+  padding: 10px 5px;
+  background-color: #00ccff;
+}
+
+/** Styling for articles **/
+.fancyarticle {
+  margin: 0 10px;
+  padding-top: 10px;
+} .fancyarticle header {
+  font-style: oblique;
+} .fancyarticle p {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+.fancyarticle header ::before { content: "~~~ "; }
+.fancyarticle header ::after  { content: " ~~~"; }
+
+/** Footer **/
+footer {
+  max-width: 300px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid #9900ff;
+  margin: 10px auto;
+  background-color: #000000;
+  background-color:rgba(0, 0, 0,0.7);
+}.copyright {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  color: #6600cc;
+  font-size: 18px;
+}.copyright:hover{
+  color: #FFFFFF;
+}
+
+/** Begin Borders **/
+.sector_tractor_beam {
+  border-right: 2px solid #333399;
+  border-left: 2px solid #333399;
+}
+nav.main ul {
+  border-right: 2px solid #333399;
+  border-left: 2px solid #333399;
+}
+
+.email_address {
+  text-decoration: underline;
+}

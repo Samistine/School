@@ -1,0 +1,1517 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='dogs.xslt'?>
+<!DOCTYPE breeds SYSTEM "dogs.dtd">
+<breeds>
+    <breed>
+        <name>American Foxhound</name>
+        <description>Skull-Should be fairly long, slightly domed at occiput, with cranium broad and full. Ears-Ears set on moderately low, long, reaching when drawn out nearly, if not quite, to the tip of the nose; fine in texture, fairly broad, with almost entire absence of erectile power-setting close to the head with the forward edge slightly inturning to the cheek-round at tip. Eyes- Eyes large, set well apart, soft and houndlike-expression gentle and pleading; of a brown or hazel color. Muzzle-Muzzle of fair length-straight and square-cut-the stop moderately defined. </description>
+        <ranking>186th</ranking>
+        <personality>Sweet-tempered and easygoing, but also stubborn and independent</personality>
+    </breed>
+    <breed>
+        <name>Akita</name>
+        <description>Large, powerful, alert, with much substance and heavy bone. The broad head, forming a blunt triangle, with deep muzzle, small eyes and erect ears carried forward in line with back of neck, is characteristic of the breed. The large, curled tail, balancing the broad head, is also characteristic of the breed.  </description>
+        <ranking>47th</ranking>
+        <personality>Dignified, courageous, and profoundly loyal.</personality>
+    </breed>
+    <breed>
+        <name>Afghan Hound</name>
+        <description>The Afghan Hound is an aristocrat, his whole appearance one of dignity and aloofness with no trace of plainness or coarseness. He has a straight front, proudly carried head, eyes gazing into the distance as if in memory of ages past. The striking characteristics of the breed-exotic, or &quot;Eastern,&quot; expression, long silky topknot, peculiar coat pattern, very prominent hipbones, large feet, and the impression of a somewhat exaggerated bend in the stifle due to profuse trouserings-stand out clearly, giving the Afghan Hound the appearance of what he is, a king of dogs, that has held true to tradition throughout the ages.</description>
+        <ranking>104th</ranking>
+        <personality>A breed of charming contradictions: independent and aloof, but sweet and profoundly loyal.</personality>
+    </breed>
+    <breed>
+        <name>Alaskan Malamute</name>
+        <description>The Alaskan Malamute, one of the oldest Arctic sled dogs, is a powerful and substantially built dog with a deep chest and strong, well-muscled body. The Malamute stands well over the pads, and this stance gives the appearance of much activity and a proud carriage, with head erect and eyes alert showing interest and curiosity. The head is broad. Ears are triangular and erect when alerted. The muzzle is bulky, only slight diminishing in width from root to nose. The muzzle is not pointed or long, yet not stubby. The coat is thick with a coarse guard coat of sufficient length to protect a woolly undercoat. Malamutes are of various colors. Face markings are a distinguishing feature. These consist of a cap over the head, the face either all white or marked with a bar and/or mask. The tail is well furred, carried over the back, and has the appearance of a waving plume.</description>
+        <ranking>55th</ranking>
+        <personality>Affectionate, loyal, playful but dignified.</personality>
+    </breed>
+    <breed>
+        <name>American Hairless Terrier</name>
+        <description>The American Hairless Terrier is a small to medium sized, smoothly muscled and active terrier. Ancestors of the breed were bred to hunt rats and other vermin. The lack of coat on the hairless variety of the American Hairless Terrier renders them unsuited for most hunting activities. They have, however, retained a strong hunting instinct and excel in many other activities and sports. The breed is energetic, alert, curious and intelligent. </description>
+        <ranking>57th</ranking>
+        <personality>Friendly, lovable, inquisitive; fearlessly game for just about anything.</personality>
+    </breed>
+    <breed>
+        <name>Affenpinscher</name>
+        <description>The Affenpinscher is a balanced, wiry-haired terrier-like toy dog whose intelligence and demeanor make it a good house pet. Originating in Germany, the name Affenpinscher means &quot;monkey-like terrier.&quot; The breed was developed to rid the kitchens, granaries, and stables of rodents. In France the breed is described as the &quot;Diablotin Moustachu&quot; or moustached little devil. Both describe the appearance and attitude of this delightful breed. The total overall appearance of the Affenpinscher is more important than any individual characteristic. He is described as having a neat but shaggy appearance.</description>
+        <ranking>141st</ranking>
+        <personality>Loyal, curious, famously funny; fearless out of all proportion to their size.</personality>
+    </breed>
+    <breed>
+        <name>American Staffordshire Terrier</name>
+        <description>The American Staffordshire Terrier should give the impression of great strength for his size, a well put-together dog, muscular, but agile and graceful, keenly alive to his surroundings. He should be stocky, not long-legged or racy in outline. His courage is proverbial.</description>
+        <ranking>80th</ranking>
+        <personality>Smart, confident, good-natured companions.</personality>
+    </breed>
+    <breed>
+        <name>American Water Spaniel</name>
+        <description>The American Water Spaniel was developed in the United States as an all-around hunting dog, bred to retrieve from skiff or canoes and work ground with relative ease. The American Water Spaniel is an active muscular dog, medium in size with a marcel to curly coat. Emphasis is placed on proper size and a symmetrical relationship of parts, texture of coat and color.</description>
+        <ranking>162nd</ranking>
+        <personality>Happy, eager, and charming; aloof with strangers, and a little stubborn.</personality>
+    </breed>
+    <breed>
+        <name>Anatolian Shepherd Dog</name>
+        <description>Large, rugged, powerful and impressive, possessing great endurance and agility. Developed through a set of very demanding circumstances for a purely utilitarian purpose; he is a working guard dog without equal, with a unique ability to protect livestock. General impression - Appears bold, but calm, unless challenged. He possesses size, good bone, a well-muscled torso with a strong head. Reserve out of its territory is acceptable. Fluid movement and even temperament is desirable.</description>
+        <ranking>96th</ranking>
+        <personality>Calm, watchful, loyal, and smart; protective and territorial.</personality>
+    </breed>
+    <breed>
+        <name>Australian Cattle Dog</name>
+        <description>The general appearance is that of a strong compact, symmetrically built working dog, with the ability and willingness to carry out his allotted task however arduous. Its combination of substance, power, balance and hard muscular condition must convey the impression of great agility, strength and endurance. Any tendency to grossness or weediness is a serious fault.</description>
+        <ranking>58th</ranking>
+        <personality>Alert, curious, and pleasant.</personality>
+    </breed>
+    <breed>
+        <name>Australian Shepherd</name>
+        <description>The Australian Shepherd is an intelligent working dog of strong herding and guarding instincts. He is a loyal companion and has the stamina to work all day. He is well balanced, slightly longer than tall, of medium size and bone, with coloring that offers variety and individuality. He is attentive and animated, lithe and agile, solid and muscular without cloddiness. He has a coat of moderate length and coarseness. He has a docked or natural bobbed tail.</description>
+        <ranking>17th</ranking>
+        <personality>Smart, work-oriented, exuberant—did we mention smart?</personality>
+    </breed>
+    <breed>
+        <name>Australian Terrier</name>
+        <description>A small, sturdy, medium-boned working terrier, rather long in proportion to height with pricked ears and docked tail. Blue and tan, solid sandy or solid red in color, with harsh-textured outer coat, a distinctive ruff and apron, and a soft, silky topknot. As befits their heritage as versatile workers, Australian Terriers are sound and free moving with good reach and drive. Their expression keen and intelligent; their manner spirited and self-assured.  </description>
+        <ranking>130th</ranking>
+        <personality>Plucky, spirited, and smart.</personality>
+    </breed>
+    <breed>
+        <name>Basset Hound</name>
+        <description>The Basset Hound possesses in marked degree those characteristics which equip it admirably to follow a trail over and through difficult terrain. It is a short-legged dog, heavier in bone, size considered, than any other breed of dog, and while its movement is deliberate, it is in no sense clumsy. In temperament it is mild, never sharp or timid. It is capable of great endurance in the field and is extreme in its devotion.</description>
+        <ranking>40th</ranking>
+        <personality>Easygoing, laid-back, and even a bit lazy, Bassets are great family pets.</personality>
+    </breed>
+    <breed>
+        <name>Beagle</name>
+        <description>A miniature Foxhound, solid and big for his inches, with the wear-and-tear look of the hound that can last in the chase and follow his quarry to the death.</description>
+        <ranking>5th</ranking>
+        <personality>Beagles are loving and lovable, happy, easygoing, and companionable.</personality>
+    </breed>
+    <breed>
+        <name>Azawakh</name>
+        <description>The Azawakh is an African sighthound of Afro-Asiatic type, which appeared in Europe towards 1970 and, comes from the Nigerian middle basin, among others, from the Valley of the Azawakh. For hundreds of years, he has been the companion of the nomads of the southern Sahara. Particularly leggy and elegant, the Azawakh gives a general impression of great fineness. His bone structure and musculature are transparent beneath fine and lean skin. This sighthound presents itself as a rangy dog whose body fits into a rectangle with its longer sides in a vertical position. Faults - Heavy general appearance.</description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>American Leopard Hound</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Airedale Terrier</name>
+        <description>The head should be well balanced with little apparent difference between the length of skull and foreface. The skull should be long and flat, not too broad between the ears and narrowing very slightly to the eyes. Scalp should be free from wrinkles, stop hardly visible and cheeks level and free from fullness. Ears should be V-shaped with carriage rather to the side of the head, not pointing to the eyes, small but not out of proportion to the size of the dog. The topline of the folded ear should be above the level of the skull.  </description>
+        <ranking>54th</ranking>
+        <personality>Clever, confident, proud; friendly but courageous.</personality>
+    </breed>
+    <breed>
+        <name>American English Coonhound</name>
+        <description>Renowned for speed and endurance, the American English Coonhound has a strong but racy body, a deep chest with plenty of lung room, a strong back, broad loin and well-defined musculature. A balanced, powerful dog with no exaggerated parts, the American English possesses the grace and attitude of a well-conditioned athlete.  </description>
+        <ranking>171st</ranking>
+        <personality>Sweet, Melow, Sociable</personality>
+    </breed>
+    <breed>
+        <name>Bedlington Terrier</name>
+        <description>A graceful, lithe, well-balanced dog with no sign of coarseness, weakness or shelliness. In repose, the dog&apos;s expression is mild and gentle, not shy or nervous. Aroused, the dog is particularly alert and full of immense energy and courage. Noteworthy for endurance, Bedlingtons also gallop at great speed, as their body outline clearly shows.</description>
+        <ranking>151st</ranking>
+        <personality>Frollicking, charming, and full of fun; a loyal member of the family.</personality>
+    </breed>
+    <breed>
+        <name>Bearded Collie</name>
+        <description>The Bearded Collie is a medium sized dog with a medium length coat that follows the natural lines of the body and allows plenty of daylight under the body. The body is long and lean, and, though strongly made, does not appear heavy. A bright inquiring expression is a distinctive feature of the breed. The Bearded Collie should be shown in a natural stance.</description>
+        <ranking>124th</ranking>
+        <personality>Bouncy, charismatic, friendly; smart, but also stubborn and independent.</personality>
+    </breed>
+    <breed>
+        <name>American Eskimo Dog</name>
+        <description>The American Eskimo Dog, a loving companion dog, presents a picture of strength and agility, alertness and beauty. It is a small to medium-size Nordic type dog, always white, or white with biscuit cream. The American Eskimo Dog is compactly built and well balanced, with good substance, and an alert, smooth gait. The face is Nordic type with erect triangular shaped ears, and distinctive black points (lips, nose, and eye rims). The white double coat consists of a short, dense undercoat, with a longer guard hair growing through it forming the outer coat, which is straight with no curl or wave. The coat is thicker and longer around the neck and chest forming a lion-like ruff, which is more noticeable on dogs than on bitches. The rump and hind legs down to the hocks are also covered with thicker, longer hair forming the characteristic breeches. The richly plumed tail is carried loosely on the back.</description>
+        <ranking>123rd</ranking>
+        <personality>Playful, perky, very smart; an excellent trick dog.</personality>
+    </breed>
+    <breed>
+        <name>Appenzeller Sennenhunde</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Belgian Sheepdog</name>
+        <description>The first impression of the Belgian Sheepdog is that of a well balanced, square dog, elegant in appearance, with an exceedingly proud carriage of the head and neck. He is a strong, agile, well-muscled animal, alert and full of life. His whole conformation gives the impression of depth and solidity without bulkiness. The male dog is usually somewhat more impressive and grand than his female counterpart. The bitch should have a distinctly feminine look. </description>
+        <ranking>125th</ranking>
+        <personality>Serious-minded, watchful, and very bright and trainable</personality>
+    </breed>
+    <breed>
+        <name>Belgian Tervuren</name>
+        <description>The first impression of the Belgian Tervuren is that of a well-balanced, medium-size dog, elegant in appearance, standing squarely on all fours, with proud carriage of head and neck. He is strong, agile, well-muscled, alert and full of life. He gives the impression of depth and solidity without bulkiness. The male should appear unquestionably masculine; the female should have a distinctly feminine look and be judged equally with the male.  The Belgian Tervuren is a natural dog and there is no need for excessive posing in the show ring. The Belgian Tervuren reflects the qualities of intelligence, courage, alertness and devotion to master. In addition to his inherent ability as a herding dog, he protects his master&apos;s person and property without being overtly aggressive. He is watchful, attentive, and usually in motion when not under command. The Belgian Tervuren is a herding dog and versatile worker. The highest value is to be placed on qualities that maintain these abilities, specifically, correct temperament, gait, bite and coat.</description>
+        <ranking>102nd</ranking>
+        <personality>Smart, self-assured, very trainable; affectionate and possessive with loved ones.</personality>
+    </breed>
+    <breed>
+        <name>Basset Fauve de Bretagne</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Barbet</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Berger Picard</name>
+        <description>The Berger Picard is an ancient breed developed by the farmers and sheep herders of the Picardy region of northern France. They are medium-sized, sturdily built &amp; well-muscled without being bulky, slightly longer than tall, with distinctive erect natural ears, wiry coat of moderate length, and a tail reaching to the hock and ending in a J-hook. Movement is free and easy, efficient, and tireless to allow them to work all day on the farm and in the fields. They are lively and alert, observant, quietly confident, and can be aloof with strangers, but should not be timid or nervous. This is a rustic, working shepherd&apos;s dog, without exaggeration or refinement.</description>
+        <ranking>89th</ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Basenji</name>
+        <description>The Basenji is a small, short haired hunting dog from Africa. It is short backed and lightly built, appearing high on the leg compared to its length. The wrinkled head is proudly carried on a well arched neck and the tail is set high and curled. Elegant and graceful, the whole demeanor is one of poise and inquiring alertness. The balanced structure and the smooth musculature enable it to move with ease and agility. The Basenji hunts by both sight and scent. Characteristics-The Basenji should not bark but is not mute. The wrinkled forehead, tightly curled tail and swift, effortless gait (resembling a racehorse trotting full out) are typical of the breed. Faults-Any departure from the following points must be considered a fault, and the seriousness with which the fault is regarded is to be in exact proportion to its degree.</description>
+        <ranking>91st</ranking>
+        <personality>An intelligent, independent, but affectionate and alert breed. Can be aloof with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Bichon Frise</name>
+        <description>The Bichon Frise is a small, sturdy, white powder puff of a dog whose merry temperament is evidenced by his plumed tail carried jauntily over the back and his dark-eyed inquisitive expression. This is a breed that has no gross or incapacitating exaggerations and therefore there is no inherent reason for lack of balance or unsound movement. Any deviation from the ideal described in the standard should be penalized to the extent of the deviation. Structural faults common to all breeds are as undesirable in the Bichon Frise as in any other breed, even though such faults may not be specifically mentioned in the standard.</description>
+        <ranking>45th</ranking>
+        <personality>Playful, curious, and peppy.</personality>
+    </breed>
+    <breed>
+        <name>Bernese Mountain Dog</name>
+        <description>The Bernese Mountain Dog is a striking. tri-colored, large dog. He is sturdy and balanced. He is intelligent, strong and agile enough to do the draft and droving work for which he was used in the mountainous regions of his origin. Male dogs appear masculine, while bitches are distinctly feminine.</description>
+        <ranking>30th</ranking>
+        <personality>Good-natured and calm.</personality>
+    </breed>
+    <breed>
+        <name>Black and Tan Coonhound</name>
+        <description>The Black and Tan Coonhound is first and fundamentally a working dog, a trail and tree hound, capable of withstanding the rigors of winter, the heat of summer, and the difficult terrain over which he is called upon to work. Used principally for trailing and treeing raccoon, the Black and Tan Coonhound runs his game entirely by scent. The characteristics and courage of the Coonhound also make him proficient on the hunt for deer, bear, mountain lion and other big game. Judges are asked by the club sponsoring the breed to place great emphasis upon these facts when evaluating the merits of the dog. The general impression is that of power, agility and alertness. He immediately impresses one with his ability to cover the ground with powerful rhythmic strides.</description>
+        <ranking>132nd</ranking>
+        <personality>Easygoing, friendly, bright; mellow by the fireside, rugged and brave on the trail.</personality>
+    </breed>
+    <breed>
+        <name>Black Russian Terrier</name>
+        <description>The Black Russian Terrier is a robust, large, balanced, agile and powerful dog. The Black Russian Terrier has large bone and well-developed muscles. He has great strength and endurance. The Black Russian Terrier must have a stable and reliable temperament, possessing self-assurance and courage.</description>
+        <ranking>121st</ranking>
+        <personality>Smart, confident, courageous; protective of loved ones, aloof with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Bluetick Coonhound</name>
+        <description>The Bluetick should have the appearance of a speedy and well-muscled hound. He never appears clumsy or overly chunky in build. He has a neat, compact body, a glossy coat and clear, keen eyes. In motion he carries his head and tail well up.</description>
+        <ranking>128th</ranking>
+        <personality>A smart and devoted charmer at home; a fearless, tenacious pursuer on the trail.</personality>
+    </breed>
+    <breed>
+        <name>Boerboel</name>
+        <description>Historically the Boerboel developed as a general farm dog for the pioneers who settled in South Africa since the seventeenth century. These dogs were often the first line of defense against predators and were valuable in tracking and holding down wounded game. Old farmers told many a tale of the strength, agility and courage of the Boerboel. The dangers and harsh conditions of southern Africa allowed only the fittest to survive. The protective character of the Boerboel is today still evident and is much sought after, as is the calm, stable and confident composure of the breed. The origin and purpose of the Boerboel should be understood in order to preserve the unique identity and qualities of the breed as a South African developed mastiff. Type, conformation, functional efficiency and mentality are equally important in the evaluation of the Boerboel as a whole. The Boerboel is a large dog that is strong, confident and muscular in appearance with powerful, free-flowing movement. When observing a Boerboel at play or work, standing or moving, it should show strength, suppleness, nimbleness and agility.</description>
+        <ranking>131st</ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Beauceron</name>
+        <description>The ideal Beauceron is a well balanced, solid dog of good height and well muscled without heaviness or coarseness. The whole conformation gives the impression of depth and solidity without bulkiness, exhibiting the strength, endurance and agility required of the herding dog. He is alert and energetic with a noble carriage. A formidable dog with a frank and unwavering expression, he always demands respect wherever he goes. Male dogs are characteristically larger throughout with a larger frame and heavier bone than bitches. Bitches are distinctly feminine, but without weakness in substance or structure. The Beauceron should be discerning and confident. He is a dog with spirit and initiative, wise and fearless with no trace of timidity. Intelligent, easily trained, faithful, gentle and obedient. </description>
+        <ranking>147th</ranking>
+        <personality>Smart, obedient, gentle; reserved with strangers, loving and eager to please with preferred humans.</personality>
+    </breed>
+    <breed>
+        <name>Bolognese</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Border Collie</name>
+        <description>The Border Collie is a well balanced, medium-sized dog of athletic appearance, displaying style and agility in equal measure with soundness and strength. Its hard, muscular body conveys the impression of effortless movement and endless endurance. The Border Collie is extremely intelligent, with its keen, alert expression being a very important characteristic of the breed. Any aspect of structure or temperament that would impede the dog&apos;s ability to function as a herding dog should be severely faulted. The Border Collie is, and should remain, a natural and unspoiled true working sheep dog whose conformation is described herein. Honorable scars and broken teeth incurred in the line of duty are acceptable.</description>
+        <ranking>39th</ranking>
+        <personality>Remarkably smart workaholics; not adverse to a good cuddle.</personality>
+    </breed>
+    <breed>
+        <name>Border Terrier</name>
+        <description>He is an active terrier of medium bone, strongly put together, suggesting endurance and agility, but rather narrow in shoulder, body and quarter. The body is covered with a somewhat broken though close-fitting and intensely wiry jacket. The characteristic &quot;otter&quot; head with its keen eye, combined with a body poise which is &quot;at the alert,&quot; gives a look of fearless and implacable determination characteristic of the breed. Since the Border Terrier is a working terrier of a size to go to ground and able, within reason, to follow a horse, his conformation should be such that he be ideally built to do his job. No deviations from this ideal conformation should be permitted, which would impair his usefulness in running his quarry to earth and in bolting it therefrom. For this work he must be alert, active and agile, and capable of squeezing through narrow apertures and rapidly traversing any kind of terrain. His head, &quot;like that of an otter,&quot; is distinctive, and his temperament ideally exemplifies that of a terrier.</description>
+        <ranking>83rd</ranking>
+        <personality>Plucky, happy, affectionate.</personality>
+    </breed>
+    <breed>
+        <name>Borzoi</name>
+        <description>The Borzoi was originally bred for the coursing of wild game on more or less open terrain, relying on sight rather than scent. To accomplish this purpose, the Borzoi needed particular structural qualities to chase, catch and hold his quarry. Special emphasis is placed on sound running gear, strong neck and jaws, courage and agility, combined with proper condition. The Borzoi should always possess unmistakable elegance, with flowing lines, graceful in motion or repose. Males, masculine without coarseness; bitches, feminine and refined.</description>
+        <ranking>93rd</ranking>
+        <personality>Loyal, affectionate, regally dignified; charming but independent-minded.</personality>
+    </breed>
+    <breed>
+        <name>Boston Terrier</name>
+        <description>The Boston Terrier is a lively, highly intelligent, smooth coated, short-headed, compactly built, short-tailed, well balanced dog, brindle, seal or black in color and evenly marked with white. The head is in proportion to the size of the dog and the expression indicates a high degree of intelligence. The body is rather short and well knit, the limbs strong and neatly turned, the tail is short and no feature is so prominent that the dog appears badly proportioned. The dog conveys an impression of determination, strength and activity, with style of a high order; carriage easy and graceful.</description>
+        <ranking>23rd</ranking>
+        <personality>Friendly, bright, amusing, and adaptable.</personality>
+    </breed>
+    <breed>
+        <name>Bouvier des Flandres</name>
+        <description>The Bouvier des Flandres is a powerfully built, compact, short-coupled, rough-coated dog of notably rugged appearance. He gives the impression of great strength without any sign of heaviness or clumsiness in his overall makeup. He is agile, spirited and bold, yet his serene, well behaved disposition denotes his steady, resolute and fearless character. His gaze is alert and brilliant, depicting his intelligence, vigor and daring. By nature he is an equable dog. His origin is that of a cattle herder and general farmer&apos;s helper, including cart pulling.</description>
+        <ranking>86th</ranking>
+        <personality>Strong-willed, even-tempered, courageous; affectionate with family, intimidating to intruders.</personality>
+    </breed>
+    <breed>
+        <name>Boxer</name>
+        <description>The ideal Boxer is a medium-sized, square-built dog of good substance with short back, strong limbs, and short, tight-fitting coat. His well-developed muscles are clean, hard, and appear smooth under taut skin. His movements denote energy. The gait is firm yet elastic, the stride free and ground-covering, the carriage proud. Developed to serve as guard, working, and companion dog, he combines strength and agility with elegance and style. His expression is alert and his temperament steadfast and tractable. The chiseled head imparts to the Boxer a unique individual stamp. It must be in correct proportion to the body. The broad, blunt muzzle is the distinctive feature, and great value is placed upon its being of proper form and balance with the skull.  </description>
+        <ranking>10th</ranking>
+        <personality>Fun-loving, bright, active and loyal.</personality>
+    </breed>
+    <breed>
+        <name>Boykin Spaniel</name>
+        <description>The Boykin Spaniel is medium in size, with emphasis placed on his hunting abilities, characterized by flushing and retrieving, with moderate speed and agility. His pendulous ears, intelligent expression, sturdy build and friendly wagging tail proclaim him part of the spaniel family.</description>
+        <ranking>111th</ranking>
+        <personality>A classic spaniel: friendly, eager, trainable, and lovable.</personality>
+    </breed>
+    <breed>
+        <name>Brittany</name>
+        <description>A compact, closely knit dog of medium size, a leggy dog having the appearance, as well as the agility, of a great ground coverer. Strong, vigorous, energetic and quick of movement. Ruggedness, without clumsiness, is a characteristic of the breed. He can be tailless or has a tail docked to approximately four inches. </description>
+        <ranking>27th</ranking>
+        <personality>Bright, upbeat, fun-loving at home; a tireless, enthusiastic worker afield.</personality>
+    </breed>
+    <breed>
+        <name>Brussels Griffon</name>
+        <description> A toy dog, intelligent, alert, sturdy, with a thickset, short body, a smart carriage and set-up, attracting attention by an almost human expression. There are two distinct types of coat: rough or smooth. Except for coat, there is no difference between the two.</description>
+        <ranking>99th</ranking>
+        <personality>Alert, curious, and loyal.</personality>
+    </breed>
+    <breed>
+        <name>Bull Terrier</name>
+        <description>Should be long, strong and deep right to the end of the muzzle, but not coarse. Full face it should be oval in outline and be filled completely up giving the impression of fullness with a surface devoid of hollows or indentations, i.e., egg shaped. In profile it should curve gently downwards from the top of the skull to the tip of the nose. The forehead should be flat across from ear to ear. The distance from the tip of the nose to the eyes should be perceptibly greater than that from the eyes to the top of the skull. The underjaw should be deep and well defined.</description>
+        <ranking>56th</ranking>
+        <personality>Playful and charming; sometimes mischievous, always loyal.</personality>
+    </breed>
+    <breed>
+        <name>Bulldog</name>
+        <description>The perfect Bulldog must be of medium size and smooth coat; with heavy, thick-set, low-swung body, massive short-faced head, wide shoulders and sturdy limbs. The general appearance and attitude should suggest great stability, vigor and strength. The disposition should be equable and kind, resolute and courageous (not vicious or aggressive), and demeanor should be pacific and dignified. These attributes should be countenanced by the expression and behavior.</description>
+        <ranking>4th</ranking>
+        <personality>Calm, courageous, and friendly; dignified but amusing.</personality>
+    </breed>
+    <breed>
+        <name>Bullmastiff</name>
+        <description>That of a symmetrical animal, showing great strength, endurance, and alertness; powerfully built but active. The foundation breeding was 60 percent Mastiff and 40 percent Bulldog. The breed was developed in England by gamekeepers for protection against poachers. </description>
+        <ranking>44th</ranking>
+        <personality>Brave, affectionate, and loyal, the Bullmastiff will always have your back.</personality>
+    </breed>
+    <breed>
+        <name>Belgian Laekenois</name>
+        <description>The first impression of the Belgian Laekenois is that of a square, well-balanced dog, elegant in appearance, with an exceedingly proud carriage of the head and neck. He is a strong, agile, well-muscled animal, alert and full of life. His whole conformation gives the impression of depth and solidity without bulkiness. The male dog is usually somewhat more impressive and grand than his female counterpart. The bitch should have a distinctly feminine look. </description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Cairn Terrier</name>
+        <description>That of an active, game, hardy, small working terrier of the short-legged class; very free in its movements, strongly but not heavily built, standing well forward on its forelegs, deep in the ribs, well coupled with strong hindquarters and presenting a well-proportioned build with a medium length of back, having a hard, weather-resisting coat; head shorter and wider than any other terrier and well furnished with hair giving a general foxy expression.</description>
+        <ranking>72nd</ranking>
+        <personality>Cheerful, alert, busy and independent-minded.</personality>
+    </breed>
+    <breed>
+        <name>Canaan Dog</name>
+        <description>The Canaan Dog is a pariah dog type that is naturally alert, inquisitive and watchful.  He is mistrustful of strangers and unfamiliar environments, yet loyal and loving with his family.  A square dog of medium size, moderate and balanced without extremes, showing a clean outline.  The moderately angulated Canaan Dog moves with athletic agility and grace in an efficient, ground-covering endurance trot.  He has a wedge-shaped head with low-set erect ears, a high set brush tail that curls over the back when confident, and a straight, harsh, flat-lying double coat.  There is a marked distinction between the sexes.</description>
+        <ranking>175th</ranking>
+        <personality>Alert, vigilant, territorial; docile with family, aloof with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Cane Corso</name>
+        <description>Ancient Italian breed medium-large size Molossus Dog. Sturdy, with a strong skeleton. Muscular and athletic, it moves with considerable ease and elegance. It has always been a property watchdog and hunter of difficult game such as the wild boar.</description>
+        <ranking>36th</ranking>
+        <personality>Smart, trainable, and noble of bearing; assertive and confident, Corsi are peerless protectors.</personality>
+    </breed>
+    <breed>
+        <name>Cardigan Welsh Corgi</name>
+        <description>Low set with moderately heavy bone and deep chest. Overall silhouette long in proportion to height, culminating in a low tail set and fox-like brush. General Impression--A handsome, powerful, small dog, capable of both speed and endurance, intelligent, sturdily built but not coarse.</description>
+        <ranking>79th</ranking>
+        <personality>Loyal, affectionate, and smart; even-tempered, never shy.</personality>
+    </breed>
+    <breed>
+        <name>Catahoula Leopard Dog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Bergamasco</name>
+        <description>The Bergamasco is a muscular, heavy-boned herding dog with a large head and a thick tail that hangs down to the hock and curves slightly upward at the end. The entire dog is covered with an abundant coat that forms mats. The Bergamasco is compact in profile but is just slightly longer than tall. The Bergamasco&apos;s characteristic feature is its unique coat, made up of three types of hair. The coat forms flocks (strands of hair weaved together creating flat layers of felted hair) or loose mats, which cover the dog&apos;s body and legs, and protect the dog from weather and predators. The hair on the head is typically long and hangs over the eyes.</description>
+        <ranking>179th</ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Bloodhound</name>
+        <description>The Bloodhound possesses, in a most marked degree, every point and characteristic of those dogs which hunt together by scent (Sagaces). He is very powerful, and stands over more ground than is usual with hounds of other breeds. The skin is thin to the touch and extremely loose, this being especially noticeable about the head and neck, where it hangs in deep folds.</description>
+        <ranking>49th</ranking>
+        <personality>Inquisitive, independent, friendly, affectionate with family, can be reserved with strangers</personality>
+    </breed>
+    <breed>
+        <name>Belgian Malinois</name>
+        <description>The Belgian Malinois is a well balanced, square dog, elegant in appearance with an exceedingly proud carriage of the head and neck. The dog is strong, agile, well muscled, alert, and full of life. He stands squarely on all fours and viewed from the side, the topline, forelegs, and hind legs closely approximate a square. The whole conformation gives the impression of depth and solidity without bulkiness. The male is usually somewhat more impressive and grand than his female counterpart, which has a distinctly feminine look.</description>
+        <ranking>52nd</ranking>
+        <personality>Smart, confident, hardworking, and steadfastly loyal.</personality>
+    </breed>
+    <breed>
+        <name>Caucasian Ovcharka</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Cavalier King Charles Spaniel</name>
+        <description>The Cavalier King Charles Spaniel is an active, graceful, well-balanced toy spaniel, very gay and free in action; fearless and sporting in character, yet at the same time gentle and affectionate. It is this typical gay temperament, combined with true elegance and royal appearance which are of paramount importance in the breed. Natural appearance with no trimming, sculpting or artificial alteration is essential to breed type.</description>
+        <ranking>19th</ranking>
+        <personality>Affectionate, graceful, and gentle.</personality>
+    </breed>
+    <breed>
+        <name>Biewer Terrier</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Cesky Terrier</name>
+        <description>The Cesky Terrier was developed to be a well-muscled, short legged and well-pigmented hunting terrier that could be worked in packs. The Cesky Terrier has natural drop ears and a natural tail. The Cesky is longer than it is tall and has a topline that rises slightly higher over the loin and rump. It sports a soft, long, silky coat in shades of gray from charcoal to platinum. The correct coat is clipped to emphasize a slim impression. The hallmarks of the breed should be unique unto itself with a lean body and graceful movement. </description>
+        <ranking>184th</ranking>
+        <personality>Feisty and tenacious at work, but a bit more laid back and trainable than the usual terrier.</personality>
+    </breed>
+    <breed>
+        <name>Chesapeake Bay Retriever</name>
+        <description>The breed&apos;s characteristics are specifically suited to enable the Chesapeake to function with ease, efficiency and endurance. In head, the Chesapeake&apos;s skull is broad and round with a medium stop. The jaws should be of sufficient length and strength to carry large game birds with an easy, tender hold. The double coat consists of a short, harsh, wavy outer coat and a dense, fine, wooly undercoat containing an abundance of natural oil and is ideally suited for the icy rugged conditions of weather the Chesapeake often works in. In body, the Chesapeake is a strong, well-balanced, powerfully built animal of moderate size and medium length in body and leg, deep and wide in chest, the shoulders built with full liberty of movement, and with no tendency to weakness in any feature, particularly the rear</description>
+        <ranking>43rd</ranking>
+        <personality>Bright, sensitive, perceptive; affectionate and family-oriented.</personality>
+    </breed>
+    <breed>
+        <name>Chihuahua</name>
+        <description> A graceful, alert, swift-moving compact little dog with saucy expression, and with terrier-like qualities of temperament.</description>
+        <ranking>29th</ranking>
+        <personality>Graceful, charming, and sassy.</personality>
+    </breed>
+    <breed>
+        <name>Chinese Crested</name>
+        <description>A toy dog, fine-boned, elegant and graceful. The distinct varieties are born in the same litter. The Hairless with hair only on the head, tail and feet and the Powderpuff, completely covered with hair. The breed serves as a loving companion, playful and entertaining.</description>
+        <ranking>78th</ranking>
+        <personality>Lively, alert, and affectionate.</personality>
+    </breed>
+    <breed>
+        <name>Chinese Shar-Pei</name>
+        <description>An alert, compact dog of medium size and substance; square in profile, close coupled; the well-proportioned head slightly but not overly large for the body. The short, harsh coat, the loose skin covering the head and body, the small ears, the &quot;hippopotamus&quot; muzzle shape and the high set tail impart to the Shar-Pei a unique look peculiar to him alone. The loose skin and wrinkles covering the head, neck and body are superabundant in puppies but these features may be limited to the head, neck and withers in the adult.  </description>
+        <ranking>61st</ranking>
+        <personality>Steadfastly devoted to loved ones, but standoffish and lordly toward strangers.</personality>
+    </breed>
+    <breed>
+        <name>Bracco Italiano</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Chinook</name>
+        <description>The Chinook was developed in the United States as a sled dog whose function was drafting and sled dog racing. Bred to combine the power of freighting breeds with the speed of the lighter racing sled dogs, he is an athletic, hard bodied dog showing good forward reach and rear extension in a seemingly tireless gait. The Chinook is an impressive dog, with an aquiline muzzle, dark almond eyes, black eye markings, a variety of ear carriages, and a tawny, close fitting coat. His saber tail is held in a graceful sickle curve. The male should appear unquestionably masculine; the female should have a distinctly feminine look and be judged equally with the male. A dignified and affectionate family dog, the Chinook is known for his love of children. The Chinook is to be presented in a natural condition with no trimming. The following is a description of the ideal Chinook.</description>
+        <ranking>182nd</ranking>
+        <personality>Patient, smart, willing to please; a devoted family dog.</personality>
+    </breed>
+    <breed>
+        <name>Chow Chow</name>
+        <description> A powerful, sturdy, squarely built, upstanding dog of Arctic type, medium in size with strong muscular development and heavy bone.  The body is compact, short coupled, broad and deep, the tail set high and carried closely to the back, the whole supported by four straight, strong, sound legs.  Viewed from the side, the hind legs have little apparent angulation and the hock joint and metatarsals are directly beneath the hip joint.  It is this structure which produces the characteristic shorter, stilted gait unique to the breed.  The large head with broad, flat skull and short, broad and deep muzzle is proudly carried and accentuated by a ruff.  Elegance and substance must be combined into a well balanced whole, never so massive as to outweigh his ability to be active, alert and agile.  Clothed in a smooth or an offstanding rough double coat, the Chow is a masterpiece of beauty, dignity and naturalness.  Essential to true Chow type are his unique blue-black tongue, scowling expression and stilted gait. </description>
+        <ranking>76th</ranking>
+        <personality>Serious-minded, dignified, bright, and aloof.</personality>
+    </breed>
+    <breed>
+        <name>Clumber Spaniel</name>
+        <description> The Clumber Spaniel is a long, low, substantial dog. His heavy brow, deep chest, straight forelegs, powerful hindquarters, massive bone and good feet all give him the power and endurance to move through dense underbrush in pursuit of game. His white coat enables him to be seen by the hunter as he works within gun range. His stature is dignified, his expression pensive, but at the same time he shows great enthusiasm for work and play.</description>
+        <ranking>139th</ranking>
+        <personality>Mellow, gentlemanly, amiable; dignified but always amusing.</personality>
+    </breed>
+    <breed>
+        <name>Cocker Spaniel</name>
+        <description>The Cocker Spaniel is the smallest member of the Sporting Group. He has a sturdy, compact body and a cleanly chiseled and refined head, with the overall dog in complete balance and of ideal size. He stands well up at the shoulder on straight forelegs with a topline sloping slightly toward strong, moderately bent, muscular quarters. He is a dog capable of considerable speed, combined with great endurance. Above all, he must be free and merry, sound, well balanced throughout and in action show a keen inclination to work. A dog well balanced in all parts is more desirable than a dog with strongly contrasting good points and faults.</description>
+        <ranking>31st</ranking>
+        <personality>Happy, smart, gentle.</personality>
+    </breed>
+    <breed>
+        <name>Braque du Bourbonnais</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Collie</name>
+        <description>The Collie is a lithe, strong, responsive, active dog, carrying no useless timber, standing naturally straight and firm. The deep, moderately wide chest shows strength, the sloping shoulders and well-bent hocks indicate speed and grace, and the face shows high intelligence. The Collie presents an impressive, proud picture of true balance, each part being in harmonious proportion to every other part and to the whole. Except for the technical description that is essential to this Standard and without which no Standard for the guidance of breeders and judges is adequate, it could be stated simply that no part of the Collie ever seems to be out of proportion to any other part. Timidity, frailness, sullenness, viciousness, lack of animation, cumbersome appearance and lack of over-all balance impair the general character.</description>
+        <ranking>37th</ranking>
+        <personality>Graceful, devoted, and proud.</personality>
+    </breed>
+    <breed>
+        <name>Coton de Tulear</name>
+        <description>The Coton de Tulear, also known as the &quot;Royal Dog of Madagascar&quot;, is a hardy, sturdy small white companion dog. The Coton de Tulear is characterized by a natural long, white, dry, profuse, cotton-like coat, rounded lively dark eyes, black on white joie de vivre expressive smile and witty personality. The breed is somewhat longer than tall. The topline is very slightly arched over the loin with a happily carried tail curved over the back on the move. At rest, the tail is down with an upward hook at the tip revealing the distinguishing outline of the Coton de Tulear.</description>
+        <ranking>88th</ranking>
+        <personality>Bright, happy-go-lucky, endlessly charming; born to love and to be loved.</personality>
+    </breed>
+    <breed>
+        <name>Curly-Coated Retriever</name>
+        <description>This smartly upstanding, multi-purpose hunting retriever is recognized by most canine historians as one of the oldest of the retrieving breeds. Developed in England, the Curly was long a favorite of English gamekeepers. Prized for innate field ability, courage and indomitable perseverance, a correctly built and tempered Curly will work as long as there is work to be done, retrieving both fur and feather in the heaviest of cover and the iciest of waters. To work all day a Curly must be balanced and sound, strong and robust, and quick and agile.</description>
+        <ranking>156th</ranking>
+        <personality>Confident, proud, wickedly smart; a thinking person’s retriever.</personality>
+    </breed>
+    <breed>
+        <name>Czechoslovakian Vlcak</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Dachshund</name>
+        <description>Low to ground, long in body and short of leg, with robust muscular development; the skin is elastic and pliable without excessive wrinkling. Appearing neither crippled, awkward, nor cramped in his capacity for movement, the Dachshund is well-balanced with bold and confident head carriage and intelligent, alert facial expression. His hunting spirit, good nose, loud tongue and distinctive build make him well-suited for below-ground work and for beating the bush. His keen nose gives him an advantage over most other breeds for trailing. </description>
+        <ranking>13th</ranking>
+        <personality>Go look up the word “spunky.” We’ll wait. Did you see a photo of a Dachsie? We thought so.</personality>
+    </breed>
+    <breed>
+        <name>Dalmatian</name>
+        <description>The Dalmatian is a distinctively spotted dog; poised and alert; strong, muscular and active; free of shyness; intelligent in expression; symmetrical in outline; and without exaggeration or coarseness. The Dalmatian is capable of great endurance, combined with fair amount of speed. Deviations from the described ideal should be penalized in direct proportion to the degree of the deviation.</description>
+        <ranking>64th</ranking>
+        <personality>A well-bred Dal is stable and outgoing; dignified but never shy.</personality>
+    </breed>
+    <breed>
+        <name>Doberman Pinscher</name>
+        <description>The appearance is that of a dog of medium size, with a body that is square. Compactly built, muscular and powerful, for great endurance and speed. Elegant in appearance, of proud carriage, reflecting great nobility and temperament. Energetic, watchful, determined, alert, fearless, loyal and obedient.  </description>
+        <ranking>14th</ranking>
+        <personality>Alert, fearless, loyal, and highly trainable.</personality>
+    </breed>
+    <breed>
+        <name>Dogo Argentino</name>
+        <description>Molossian normal type, mesomorphic and macrothalic, within the desirable proportions without gigantic dimensions. Its aspect is harmonic and vigorous due to its powerful muscles which stand out under the consistent and elastic skin adhered to the body through a not very lax subcutaneous tissue. It walks quietly but firmly, showing its intelligence and quick responsiveness and revealing by means of its movement its permanent happy natural disposition. Of a kind and loving nature, of a striking whiteness, its physical virtues turn it into a real athlete.</description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Broholmer</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Briard</name>
+        <description>A dog of handsome form. Vigorous and alert, powerful without coarseness, strong in bone and muscle, exhibiting the strength and agility required of the herding dog. Dogs lacking these qualities, however concealed by the coat, are to be penalized. </description>
+        <ranking>135th</ranking>
+        <personality>A whole lot of dog: smart, confident, faithful, with plenty of joie de vivre.</personality>
+    </breed>
+    <breed>
+        <name>Dutch Shepherd</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Cirneco dell&apos;Etna</name>
+        <description></description>
+        <ranking>167th</ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Dogue de Bordeaux</name>
+        <description>The Dogue de Bordeaux is one of the most ancient French breeds. He is a typical brachycephalic molossoid type. He is a very powerful dog, with a very muscular body yet retaining a harmonious general outline. Built rather close to the ground, the distance from the deepest point of the chest to the ground is slightly less than the depth of the chest. A massive head with proper proportions and features is an important characteristic of the breed. His serious expression, stocky and athletic build, and self assurance make him very imposing. Bitches have identical characteristics, but less prominent.</description>
+        <ranking>65th</ranking>
+        <personality>Loyal, affectionate, and protective; courageous but not aggressive.</personality>
+    </breed>
+    <breed>
+        <name>Central Asian Shepherd Dog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>English Springer Spaniel</name>
+        <description>The English Springer Spaniel is a medium-sized sporting dog, with a compact body and a docked tail. His coat is moderately long, with feathering on his legs, ears, chest and brisket. His pendulous ears, soft gentle expression, sturdy build and friendly wagging tail proclaim him unmistakably a member of the ancient family of Spaniels. He is above all a well-proportioned dog, free from exaggeration, nicely balanced in every part. His carriage is proud and upstanding, body deep, legs strong and muscular, with enough length to carry him with ease. Taken as a whole, the English Springer Spaniel suggests power, endurance and agility. He looks the part of a dog that can go, and keep going, under difficult hunting conditions. At his best, he is endowed with style, symmetry, balance and enthusiasm, and is every inch a sporting dog of distinct spaniel character, combining beauty and utility.</description>
+        <ranking>28th</ranking>
+        <personality>Friendly, playful, obedient at home; hardworking and steady in the field.</personality>
+    </breed>
+    <breed>
+        <name>English Toy Spaniel</name>
+        <description>The English Toy Spaniel is a compact, cobby and essentially square toy dog possessed of a short-nosed, domed head, a merry and affectionate demeanor and a silky, flowing coat. His compact, sturdy body and charming temperament, together with his rounded head, lustrous dark eye, and well cushioned face, proclaim him a dog of distinction and character. The important characteristics of the breed are exemplified by the head.</description>
+        <ranking>134th</ranking>
+        <personality>A true spaniel—affectionate, alert, and merry.</personality>
+    </breed>
+    <breed>
+        <name>Deutscher Wachtelhund</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Dandie Dinmont Terrier</name>
+        <description>Originally bred to go to ground, the Dandie Dinmont Terrier is a long, low-stationed working terrier with a curved outline. The distinctive head with silken topknot is large but in proportion to the size of the dog. The dark eyes are large and round with a soft, wise expression. The sturdy, flexible body and scimitar shaped tail are covered with a rather crisp double coat, either mustard or pepper in color.</description>
+        <ranking>177th</ranking>
+        <personality>Independent, proud, smart; affectionate at home, bold and tenacious in the field.</personality>
+    </breed>
+    <breed>
+        <name>Entlebucher Mountain Dog</name>
+        <description>The Entlebucher is a compact, strongly muscled, elongated drover with ample bone. He has a short, hard and shiny coat, bright black with symmetrical markings of pure white on blaze, muzzle, chest, and feet; shades of rich fawn to mahogany are present on the eyebrows and between the black and white markings.  </description>
+        <ranking>164th</ranking>
+        <personality>Enthusiastic, loyal, smart; confident but not aggressive.</personality>
+    </breed>
+    <breed>
+        <name>English Foxhound</name>
+        <description>Should be of full size, but by no means heavy. Brow pronounced, but not high or sharp. There should be a good length and breadth, sufficient to give in a dog hound a girth in front of the ears of fully 16 inches. The nose should be long (4½ inches) and wide, with open nostrils. Ears set on low and lying close to the cheeks. Most English hounds are &quot;rounded&quot; which means that about 1½ inches is taken off the end of the ear. The teeth must meet squarely, either a pig-mouth (overshot) or undershot being a disqualification.</description>
+        <ranking>189th</ranking>
+        <personality>The prototypical pack hound: gentle, affectionate, and sociable.</personality>
+    </breed>
+    <breed>
+        <name>Estrela Mountain Dog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Drentsche Patrijshond</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Field Spaniel</name>
+        <description>The Field Spaniel is a combination of beauty and utility. It is a well balanced, substantial hunter-companion of medium size, built for activity and endurance in a heavy cover and water. It has a noble carriage; a proud but docile attitude; is sound and free moving. Symmetry, gait, attitude and purpose are more important than any one part.</description>
+        <ranking>150th</ranking>
+        <personality>Sweet, sensitive, fun-loving, and smart; a real people-pleaser.</personality>
+    </breed>
+    <breed>
+        <name>Finnish Spitz</name>
+        <description>The Finnish Spitz presents a fox-like picture. The breed has long been used to hunt small game and birds. The pointed muzzle, erect ears, dense coat and curled tail denotes its northern heritage. The Finnish Spitzs whole being shows liveliness, which is especially evident in the eyes, ears and tail. Males are decidedly masculine without coarseness. Bitches are decidedly feminine without over-refinement. The Finnish Spitz&apos;s most important characteristics are its square, well-balanced body that is symmetrical with no exaggerated features, a glorious red-gold coat, his bold carriage and brisk movement.</description>
+        <ranking>183rd</ranking>
+        <personality>Eager, courageous, friendly, and faithful.</personality>
+    </breed>
+    <breed>
+        <name>Flat-Coated Retriever</name>
+        <description>The distinctive and most important features of the Flat-Coat are the silhouette (both moving and standing), smooth effortless movement, head type, coat and character. In silhouette the Flat-Coat has a long, strong, clean, &quot;one piece&quot; head, which is unique to the breed. Free from exaggeration of stop or cheek, the head is set well into a moderately long neck which flows smoothly into well laid back shoulders. A level topline combined with a deep, long rib cage tapering to a moderate tuck-up create the impression of a blunted triangle. The brisket is well developed and the forechest forms a prominent prow. This utilitarian retriever is well balanced, strong, but elegant; never cobby, short legged or rangy. The coat is thick and flat lying, and the legs and tail are well feathered. A proud carriage, responsive attitude, waving tail and overall look of functional strength, quality, style and symmetry complete the picture of the typical Flat-Coat.</description>
+        <ranking>90th</ranking>
+        <personality>Happy, confident, intelligent, and forever young.</personality>
+    </breed>
+    <breed>
+        <name>Drever</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>French Bulldog</name>
+        <description>The French Bulldog has the appearance of an active, intelligent, muscular dog of heavy bone, smooth coat, compactly built, and of medium or small structure. Expression alert, curious, and interested. Any alteration other than removal of dewclaws is considered mutilation and is a disqualification. Proportion and Symmetry - All points are well distributed and bear good relation one to the other; no feature being in such prominence from either excess or lack of quality that the animal appears poorly proportioned. </description>
+        <ranking>6th</ranking>
+        <personality>Playful, smart, adaptable, and completely irresistible.</personality>
+    </breed>
+    <breed>
+        <name>Danish-Swedish Farmdog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>German Pinscher</name>
+        <description>The German Pinscher is a medium size, short coated dog, elegant in appearance with a strong square build and moderate body structure, muscular and powerful for endurance and agility. Energetic, watchful, alert, agile, fearless, determined, intelligent and loyal, the German Pinscher has the prerequisites to be an excellent watchdog and companion. The German Pinscher is examined on the ground.  </description>
+        <ranking>143rd</ranking>
+        <personality>Intelligent, determined, assertive; playful and vivacious into old age.</personality>
+    </breed>
+    <breed>
+        <name>German Shepherd Dog</name>
+        <description>The first impression of a good German Shepherd Dog is that of a strong, agile, well muscled animal, alert and full of life. It is well balanced, with harmonious development of the forequarter and hindquarter. The dog is longer than tall, deep-bodied, and presents an outline of smooth curves rather than angles. It looks substantial and not spindly, giving the impression, both at rest and in motion, of muscular fitness and nimbleness without any look of clumsiness or soft living. The ideal dog is stamped with a look of quality and nobility - difficult to define, but unmistakable when present. Secondary sex characteristics are strongly marked, and every animal gives a definite impression of masculinity or femininity, according to its sex.</description>
+        <ranking>2nd</ranking>
+        <personality>Smart, confident, courageous, and steady; a true dog lover&apos;s dog.</personality>
+    </breed>
+    <breed>
+        <name>German Shorthaired Pointer</name>
+        <description>The German Shorthaired Pointer is a versatile hunter, an all-purpose gun dog capable of high performance in field and water. The judgment of Shorthairs in the show ring reflects this basic characteristic. The overall picture which is created in the observer&apos;s eye is that of an aristocratic, well balanced, symmetrical animal with conformation indicating power, endurance and agility and a look of intelligence and animation. The dog is neither unduly small nor conspicuously large. It gives the impression of medium size, but is like the proper hunter, &quot;with a short back, but standing over plenty of ground.&quot; Symmetry and field quality are most essential. </description>
+        <ranking>11th</ranking>
+        <personality>Friendly, smart, willing to please.</personality>
+    </breed>
+    <breed>
+        <name>German Wirehaired Pointer</name>
+        <description>The German Wirehaired Pointer is a well muscled, medium sized dog of distinctive appearance. Balanced in size and sturdily built, the breed&apos;s most distinguishing characteristics are its weather resistant, wire-like coat and its facial furnishings. Typically Pointer in character and style, the German Wirehaired Pointer is an intelligent, energetic and determined hunter.</description>
+        <ranking>70th</ranking>
+        <personality>Affectionate, eager, enthusiastic; aloof but not unfriendly with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Giant Schnauzer</name>
+        <description>The Giant Schnauzer should resemble, as nearly as possible, in general appearance, a larger and more powerful version of the Standard Schnauzer, on the whole a bold and valiant figure of a dog. Robust, strongly built, nearly square in proportion of body length to height at withers, active, sturdy, and well muscled. Temperament which combines spirit and alertness with intelligence and reliability. Composed, watchful, courageous, easily trained, deeply loyal to family, playful, amiable in repose, and a commanding figure when aroused. The sound, reliable temperament, rugged build, and dense weather-resistant wiry coat make for one of the most useful, powerful, and enduring working breeds.</description>
+        <ranking>84th</ranking>
+        <personality>Loyal, alert, trainable, with the stable temperament required in big dogs of great strength.</personality>
+    </breed>
+    <breed>
+        <name>Glen of Imaal Terrier</name>
+        <description>The Glen of Imaal Terrier, named for the region in the Wicklow Mountains of Ireland where it was developed long ago, is a medium sized working terrier. Longer than tall and sporting a double coat of medium length, the Glen possesses great strength and should always convey the impression of maximum substance for size of dog. Unrefined to this day, the breed still possesses &quot;antique&quot; features once common to many early terrier types; its distinctive head with rose or half-prick ears, its bowed forequarters with turned out feet, its unique outline and topline are hallmarks of the breed and essential to the breed type.</description>
+        <ranking>173rd</ranking>
+        <personality>Gentler, less excitable than most terriers, but still bold and spirited.</personality>
+    </breed>
+    <breed>
+        <name>Golden Retriever</name>
+        <description>A symmetrical, powerful, active dog, sound and well put together, not clumsy nor long in the leg, displaying a kindly expression and possessing a personality that is eager, alert and self-confident. Primarily a hunting dog, he should be shown in hard working condition. Overall appearance, balance, gait and purpose to be given more emphasis than any of his component parts. Faults-Any departure from the described ideal shall be considered faulty to the degree to which it interferes with the breed&apos;s purpose or is contrary to breed character.</description>
+        <ranking>3rd</ranking>
+        <personality>Intelligent, friendly, and devoted.</personality>
+    </breed>
+    <breed>
+        <name>English Cocker Spaniel</name>
+        <description>The English Cocker Spaniel is an active, merry sporting dog, standing well up at the withers and compactly built. He is alive with energy; his gait is powerful and frictionless, capable both of covering ground effortlessly and penetrating dense cover to flush and retrieve game. His enthusiasm in the field and the incessant action of his tail while at work indicate how much he enjoys the hunting for which he was bred. His head is especially characteristic. He is, above all, a dog of balance, both standing and moving, without exaggeration in any part, the whole worth more than the sum of its parts.</description>
+        <ranking>61st</ranking>
+        <personality>Merry and responsive, alive with energy.</personality>
+    </breed>
+    <breed>
+        <name>Great Dane</name>
+        <description>The Great Dane combines, in its regal appearance, dignity, strength and elegance with great size and a powerful, well-formed, smoothly muscled body. It is one of the giant working breeds, but is unique in that its general conformation must be so well balanced that it never appears clumsy, and shall move with a long reach and powerful drive. It is always a unit -- the Apollo of dogs. A Great Dane must be spirited, courageous, never timid; always friendly and dependable. This physical and mental combination is the characteristic which gives the Great Dane the majesty possessed by no other breed. </description>
+        <ranking>15th</ranking>
+        <personality>Friendly, patient, &amp; dependable.</personality>
+    </breed>
+    <breed>
+        <name>Great Pyrenees</name>
+        <description>The Great Pyrenees dog conveys the distinct impression of elegance and unsurpassed beauty combined with great overall size and majesty. He has a white or principally white coat that may contain markings of badger, gray, or varying shades of tan. He possesses a keen intelligence and a kindly, while regal, expression. Exhibiting a unique elegance of bearing and movement, his soundness and coordination show unmistakably the purpose for which he has been bred, the strenuous work of guarding the flocks in all kinds of weather on the steep mountain slopes of the Pyrenees.</description>
+        <ranking>69th</ranking>
+        <personality>Calm, patient, smart; strong-willed yet affectionate.</personality>
+    </breed>
+    <breed>
+        <name>English Setter</name>
+        <description>An elegant, substantial and symmetrical gun dog suggesting the ideal blend of strength, stamina, grace, and style. Flat-coated with feathering of good length. Gaiting freely and smoothly with long forward reach, strong rear drive and firm topline. Males decidedly masculine without coarseness. Females decidedly feminine without over-refinement. Overall appearance, balance, gait, and purpose to be given more emphasis than any component part. Above all, extremes of anything distort type and must be faulted.</description>
+        <ranking>100th</ranking>
+        <personality>Friendly, merry, and mellow; called the “gentleman of the dog world.”</personality>
+    </breed>
+    <breed>
+        <name>Greater Swiss Mountain Dog</name>
+        <description>The Greater Swiss Mountain Dog is a Draft and Drover breed and should structurally appear as such. It is a striking, tri-colored, large, powerful, confident dog of sturdy appearance. It is a heavy boned and well muscled dog which, in spite of its size and weight, is agile enough to perform the all-purpose farm duties of the mountainous regions of its origin.</description>
+        <ranking>81st</ranking>
+        <personality>Faithful, dependable, family oriented; Swissies are famously even-tempered.</personality>
+    </breed>
+    <breed>
+        <name>Greyhound</name>
+        <description>Long and narrow, fairly wide between the ears, scarcely perceptible stop, little or no development of nasal sinuses, good length of muzzle, which should be powerful without coarseness. Teeth very strong and even in front. Ears are mall and fine in texture, thrown back and folded, except when excited, when they are semi-pricked. Eyes are dark, bright, intelligent, indicating spirit.</description>
+        <ranking>152nd</ranking>
+        <personality>Independent, gentle, noble, and oh so sweet, but intense when on the run.</personality>
+    </breed>
+    <breed>
+        <name>Havanese</name>
+        <description>The Havanese is a small, sturdy dog of immense charm. The native dog of Cuba, he is beloved as a friendly, intelligent and playful companion. He is slightly longer than tall, with a long, untrimmed, double coat. The Havanese has a short upper arm with moderate shoulder layback and a straight topline that rises slightly from the withers to the croup. The plumed tail is carried arched forward up over the back. The unique springy gait is a result of the breed&apos;s structure and playful, spirited personality. These characteristics of temperament, coat, structure and gait are essential to type.</description>
+        <ranking>25th</ranking>
+        <personality>Outgoing, funny, &amp; intelligent.</personality>
+    </breed>
+    <breed>
+        <name>French Spaniel</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>German Spitz</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Eurasier</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Finnish Lapphund</name>
+        <description>The Finnish Lapphund is a medium sized breed that combines the look of the northern type dog with the temperament of the herding dog. They are intelligent, alert, agile, friendly and eager to learn. Developed to live and work outside, north of the Arctic Circle, the breed is strongly built and thickly coated. These dogs were never intended as guardians, and are particularly submissive towards people. Despite its strength, the Finnish Lapphund conveys a certain softness, particularly in expression. Males are recognizably masculine and females feminine.</description>
+        <ranking>174th</ranking>
+        <personality>Reserved with strangers, but usually calm and friendly; submissive at home, courageous at work.</personality>
+    </breed>
+    <breed>
+        <name>Icelandic Sheepdog</name>
+        <description>The Icelandic Sheepdog is a Nordic herding Spitz, slightly under medium sized with prick ears and a curled tail. Seen from the side the dog is rectangular. The expression is gentle, intelligent and happy. A confident and lively bearing is typical for this dog. There are two types of coat, long and short, both thick and extremely weatherproof. There is a marked difference in appearance between the sexes.</description>
+        <ranking>145th</ranking>
+        <personality>Confident, cheerful, sociable; the expression “man’s best friend” was coined for dogs like this.</personality>
+    </breed>
+    <breed>
+        <name>German Longhaired Pointer</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Gordon Setter</name>
+        <description>The Gordon Setter is a good-sized, sturdily built, black and tan dog, well muscled, with plenty of bone and substance, but active, upstanding and stylish, appearing capable of doing a full day&apos;s work in the field. He has a strong, rather short back, with well sprung ribs and a short tail. The head is fairly heavy and finely chiseled. His bearing is intelligent, noble, and dignified, showing no signs of shyness or viciousness. Clear colors and straight or slightly waved coat are correct. He suggests strength and stamina rather than extreme speed. Symmetry and quality are most essential. A dog well balanced in all points is preferable to one with outstanding good qualities and defects. A smooth, free movement, with high head carriage, is typical.</description>
+        <ranking>109th</ranking>
+        <personality>Bold, confident, and resolute afield; sweetly affectionate by the fireside.</personality>
+    </breed>
+    <breed>
+        <name>Irish Setter</name>
+        <description>The Irish Setter is an active, aristocratic bird dog, rich red in color, substantial yet elegant in build. Standing over two feet tall at the shoulder, the dog has a straight, fine, glossy coat, longer on ears, chest, tail and back of legs. Afield, the Irish Setter is a swift-moving hunter; at home, a sweet natured, trainable companion.  </description>
+        <ranking>74th</ranking>
+        <personality>Outgoing, sweet-natured, active, and trainable.</personality>
+    </breed>
+    <breed>
+        <name>Irish Water Spaniel</name>
+        <description>That of a smart, upstanding, strongly built moderate gundog bred for all types of shooting, especially for water-fowling. Great intelligence is combined with rugged endurance and a bold, dashing eagerness of temperament. Distinguishing characteristics are a topknot of long, loose curls and a body covered with a dense, crisply curled liver colored coat contrasted by a smooth face and a smooth &quot;rat&quot; tail.</description>
+        <ranking>149th</ranking>
+        <personality>Alert and inquisitive; hardworking and brave in the field, playful and affectionate at home.</personality>
+    </breed>
+    <breed>
+        <name>Irish Wolfhound</name>
+        <description>Of great size and commanding appearance, the Irish Wolfhound is remarkable in combining power and swiftness with keen sight. The largest and tallest of the galloping hounds, in general type he is a rough-coated, Greyhound-like breed; very muscular, strong though gracefully built; movements easy and active; head and neck carried high, the tail carried with an upward sweep with a slight curve towards the extremity. The minimum height and weight of dogs should be 32 inches and 120 pounds; of bitches, 30 inches and 105 pounds; these to apply only to hounds over 18 months of age. Anything below this should be debarred from competition. Great size, including height at shoulder and proportionate length of body, is the desideratum to be aimed at, and it is desired to firmly establish a race that shall average from 32 to 34 inches in dogs, showing the requisite power, activity, courage and symmetry.</description>
+        <ranking>71st</ranking>
+        <personality>Calm, dignified, kindly; courageous but not aggressive</personality>
+    </breed>
+    <breed>
+        <name>Italian Greyhound</name>
+        <description> The Italian Greyhound is very similar to the Greyhound, but much smaller and more slender in all proportions and of ideal elegance and grace.</description>
+        <ranking>73rd</ranking>
+        <personality>Sensitive and alert, playful, highly affectionate</personality>
+    </breed>
+    <breed>
+        <name>Jindo</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Grand Basset Griffon Vendeen</name>
+        <description>The Grand Basset Griffon Vendéen is a well-balanced, strongly built, rough-coated scent hound of friendly and noble character. He is of medium size with straight legs, deep chest. He is longer than he is tall with a moderately long muzzle, long ears and a long tail. His neck is moderately long and strong, noble head with a mustache and beard, surmounted with protective long eyebrows. His structure was designed to hunt rabbit and hare at a fast pace through the bramble, and over the rough terrain of the Vendee area of France. He is a courageous, passionate and broadly skilled hunter who today is used to hunt not only rabbit and hare but also boar and roe deer. He is active, possessing great stamina for a full days&apos; hunt and uses his voice freely while on the trail. Any feature that detracts from function is a serious fault.</description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Hovawart</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Karelian Bear Dog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Keeshond</name>
+        <description>The Keeshond (pronounced kayz-hawnd) is a natural, handsome dog of well-balanced, short-coupled body, attracting attention not only by his coloration, alert carriage, and intelligent expression, but also by his stand-off coat, his richly plumed tail well curled over his back, his foxlike expression, and his small pointed ears. His coat is very thick around the neck, fore part of the shoulders and chest, forming a lion-like ruff-more profuse in the male. His rump and hind legs, down to the hocks, are also thickly coated, forming the characteristic &quot;trousers.&quot; His head, ears, and lower legs are covered with thick, short hair.</description>
+        <ranking>85th</ranking>
+        <personality>Outgoing, lively, friendly to all; a lover, not a fighter</personality>
+    </breed>
+    <breed>
+        <name>Kerry Blue Terrier</name>
+        <description>The typical Kerry Blue Terrier should be upstanding well knit and in good balance, showing a well-developed and muscular body with definite terrier style and character throughout. Correct coat and color are important.  A low-slung Kerry is not typical.</description>
+        <ranking>129th</ranking>
+        <personality>Smart and alert; people oriented, with a dash of Irish humor in his heart</personality>
+    </breed>
+    <breed>
+        <name>Harrier</name>
+        <description>Developed in England to hunt hare in packs, Harriers must have all the attributes of a scenting pack hound. They are very sturdily built with large bone for their size. They must be active, well balanced, full of strength and quality, in all ways appearing able to work tirelessly, no matter the terrain, for long periods. Running gear and scenting ability are particularly important features. The Harrier should, in fact, be a smaller version of the English Foxhound.</description>
+        <ranking>188th</ranking>
+        <personality>Outgoing and friendly; true pack hounds, they generally get on well with other dogs.</personality>
+    </breed>
+    <breed>
+        <name>Komondor</name>
+        <description>The Komondor is characterized by imposing strength, dignity, courageous demeanor, and pleasing conformation. He is a large, muscular dog with plenty of bone and substance, covered with an unusual, heavy coat of white cords. The working Komondor lives during the greater part of the year in the open, and his coat serves to help him blend in with his flock and to protect him from extremes of weather and beasts of prey.</description>
+        <ranking>162nd</ranking>
+        <personality>Dignified, brave, protective, steadfastly loyal</personality>
+    </breed>
+    <breed>
+        <name>Kromfohrlander</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Hamiltonstovare</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Kuvasz</name>
+        <description>A working dog of larger size, sturdily built, well balanced, neither lanky nor cobby. White in color with no markings. Medium boned, well muscled, without the slightest hint of bulkiness or lethargy. Impresses the eye with strength and activity combined with light-footedness, moves freely on strong legs.</description>
+        <ranking>155th</ranking>
+        <personality>Intensely loyal, protective, utterly fearless; sweet and patient with family</personality>
+    </breed>
+    <breed>
+        <name>Labrador Retriever</name>
+        <description>The Labrador Retriever is a strongly built, medium-sized, short-coupled, dog possessing a sound, athletic, well-balanced conformation that enables it to function as a retrieving gun dog; the substance and soundness to hunt waterfowl or upland game for long hours under difficult conditions; the character and quality to win in the show ring; and the temperament to be a family companion. Physical features and mental characteristics should denote a dog bred to perform as an efficient Retriever of game with a stable temperament suitable for a variety of pursuits beyond the hunting environment. The most distinguishing characteristics of the Labrador Retriever are its short, dense, weather resistant coat; an &quot;otter&quot; tail; a clean-cut head with broad back skull and moderate stop; powerful jaws; and its &quot;kind,&quot; friendly eyes, expressing character, intelligence and good temperament.  </description>
+        <ranking>1st</ranking>
+        <personality>Friendly and outgoing, Labs play well with others</personality>
+    </breed>
+    <breed>
+        <name>Lagotto Romagnolo</name>
+        <description>Small to medium-sized dog, well proportioned, powerfully built, of a rustic appearance, with a dense, curly coat of woolly texture. The dog should give the impression that he has the strength and endurance to work all day in difficult and challenging terrain. </description>
+        <ranking>75th</ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Lakeland Terrier</name>
+        <description>The Lakeland Terrier is a small, workmanlike dog of square, sturdy build. His body is deep and relatively narrow, which allows him to squeeze into rocky dens. He has sufficient length of leg under him to cover rough ground easily. His neck is long, leading smoothly into high withers and a short topline ending in a high tail set. His attitude is gay, friendly, and self-confident, but not overly aggressive. He is alert and ready to go. His movement is lithe and graceful, with a straight-ahead, free stride of good length. His head is rectangular, jaws are powerful, and ears are V-shaped. A dense, wiry coat is finished off with longer furnishings on muzzle and legs.</description>
+        <ranking>146th</ranking>
+        <personality>Brave, bright, confident; affectionate with family, especially kids</personality>
+    </breed>
+    <breed>
+        <name>Leonberger</name>
+        <description>The Leonberger is a calm, non-aggressive, large, muscular, working dog with a proud head carriage. He is distinguished by his balanced build, black mask, and double coat. Adult males, in particular, are powerful and strong and carry a lion-like mane on the neck and chest. A dog or bitch is easily discernable as such. For its size, the Leonberger is light on its feet and graceful in motion. Because natural appearance is essential to breed type, the Leonberger is to be shown with no trimming, sculpting or other alterations of the coat. True to his original purpose as a family, farm and draft dog, today&apos;s Leonberger excels as a multi-purpose working dog; the most important task being a reliable family companion. The Leonberger is vigilant, obedient and quietly confident in all situations. He exudes good-natured watchfulness, depicting intelligence and vigor.</description>
+        <ranking>97th</ranking>
+        <personality>Bright, patient, loving, and family oriented</personality>
+    </breed>
+    <breed>
+        <name>Lhasa Apso</name>
+        <description>Heavy head furnishings with good fall over eyes, good whiskers and beard; skull narrow, falling away behind the eyes in a marked degree, not quite flat, but not domed or apple-shaped; straight foreface of fair length. Nose black, the length from tip of nose to eye to be roughly about one-third of the total length from nose to back of skull.</description>
+        <ranking>65th</ranking>
+        <personality>Smart, confident, complex; a family comedian, but regally aloof with strangers</personality>
+    </breed>
+    <breed>
+        <name>Maltese</name>
+        <description>The Maltese is a toy dog covered from head to foot with a mantle of long, silky, white hair. He is gentle-mannered and affectionate, eager and sprightly in action, and, despite his size, possessed of the vigor needed for the satisfactory companion. Size: Weight under 7 pounds, with from 4 to 6 pounds preferred. Overall quality is to be favored over size.</description>
+        <ranking>32nd</ranking>
+        <personality>Gentle, playful, affectionate; fearless in a charming toy-dog way.</personality>
+    </breed>
+    <breed>
+        <name>Irish Terrier</name>
+        <description>The over-all appearance of the Irish Terrier is important. In conformation he must be more than a sum of his parts. He must be all-of-a piece, a balanced vital picture of symmetry, proportion and harmony. Furthermore, he must convey character. This terrier must be active, lithe and wiry in movement, with great animation; sturdy and strong in substance and bone structure, but at the same time free from clumsiness, for speed, power and endurance are most essential. The Irish Terrier must be neither &quot;cobby&quot; nor &quot;cloddy,&quot; but should be built on lines of speed with a graceful, racing outline.</description>
+        <ranking>118th</ranking>
+        <personality>Bold, dashing, even reckless; stouthearted at work, tenderhearted at home.</personality>
+    </breed>
+    <breed>
+        <name>Ibizan Hound</name>
+        <description>The Ibizan&apos;s clean-cut lines, large prick ears and light pigment give it a unique appearance. A hunting dog whose quarry is primarily rabbits, this ancient hound was bred for thousands of years with function being of prime importance. Lithe and racy, the Ibizan possesses a deerlike elegance combined with the power of a hunter. Strong, without appearing heavily muscled, the Ibizan is a hound of moderation. With the exception of the ears, he should not appear extreme or exaggerated.  </description>
+        <ranking>165th</ranking>
+        <personality>Even-tempered and polite; a bit aloof, but a sweet-natured, family-oriented housemate.</personality>
+    </breed>
+    <breed>
+        <name>Manchester Terrier</name>
+        <description></description>
+        <ranking>142nd</ranking>
+        <personality>Spirited, bright, keenly observant; dead loyal, in an independent terrier way.</personality>
+    </breed>
+    <breed>
+        <name>Miniature American Shepherd</name>
+        <description>The Miniature American Shepherd is a small size herding dog that originated in the United States. He is slightly longer than tall with bone that is moderate and in proportion to body size and height without extremes. Movement is smooth, easy, and balanced. Exceptional agility combined with strength and stamina allows for working over a variety of terrain. This highly versatile, energetic dog makes an excellent athlete with superior intelligence and a willingness to please those to whom he is devoted. He is both a loyal companion and a biddable worker, which is evident in his watchful expression. The double coat of medium length and coarseness may be solid in color or merled, with or without white and/or tan (copper) markings. He traditionally has a docked or natural bobtail.</description>
+        <ranking>18th</ranking>
+        <personality>Good-natured, Devoted, Intelligent</personality>
+    </breed>
+    <breed>
+        <name>Miniature Bull Terrier</name>
+        <description>The Miniature Bull Terrier must be strongly built, symmetrical and active, with a keen, determined and intelligent expression. He should be full of fire, having a courageous, even temperament and be amenable to discipline.</description>
+        <ranking>126th</ranking>
+        <personality>Upbeat, mischievous, comical, with terrier fire and fearlessness.</personality>
+    </breed>
+    <breed>
+        <name>Irish Red and White Setter</name>
+        <description>The Irish Red and White Setter is bred primarily for the field. The standard as set out hereunder must be interpreted chiefly from this point of view and all judges at bench shows must be encouraged to judge the exhibits chiefly from the working standpoint. The appearance is strong and powerful, well balanced and proportioned without lumber; athletic rather than racy with an aristocratic, keen and intelligent attitude.</description>
+        <ranking>153rd</ranking>
+        <personality>Fun-loving, friendly, high-spirited; a real handful if bored or neglected.</personality>
+    </breed>
+    <breed>
+        <name>Japanese Chin</name>
+        <description></description>
+        <ranking>101st</ranking>
+        <personality>A true aristocrat: charming and loving with those they favor, nobly reserved with strangers</personality>
+    </breed>
+    <breed>
+        <name>Miniature Pinscher</name>
+        <description>The Miniature Pinscher is structurally a well balanced, sturdy, compact, short-coupled, smooth-coated dog. He naturally is well groomed, proud, vigorous and alert. Characteristic traits are his hackney-like action, fearless animation, complete self-possession, and his spirited presence.</description>
+        <ranking>66th</ranking>
+        <personality>Proud, fearless, and fun-loving, Min Pins are a true “personality breed.&quot;</personality>
+    </breed>
+    <breed>
+        <name>Miniature Schnauzer</name>
+        <description>The Miniature Schnauzer is a robust, active dog of terrier type, resembling his larger cousin, the Standard Schnauzer, in general appearance, and of an alert, active disposition. Faults - Type - Toyishness, ranginess or coarseness.</description>
+        <ranking>16th</ranking>
+        <personality>Friendly, smart, obedient.</personality>
+    </breed>
+    <breed>
+        <name>Jagdterrier</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Neapolitan Mastiff</name>
+        <description>The Neapolitan Mastiff is a heavy-boned, massive, awe inspiring dog bred for use as a guard and defender of owner and property. He is characterized by loose skin, over his entire body, abundant, hanging wrinkles and folds on the head and a voluminous dewlap. The essence of the Neapolitan is his bestial appearance, astounding head and imposing size and attitude. Due to his massive structure, his characteristic movement is rolling and lumbering, not elegant or showy.</description>
+        <ranking>110th</ranking>
+        <personality>Watchful and dignified; sweet, steady, and loyal with loved ones, calm but wary with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Newfoundland</name>
+        <description>The Newfoundland is a sweet-dispositioned dog that acts neither dull nor ill-tempered. He is a devoted companion. The Newfoundland is a large, heavily coated, well balanced dog that is deep-bodied, heavily boned, muscular, and strong. A good specimen of the breed has dignity and proud head carriage.</description>
+        <ranking>38th</ranking>
+        <personality>Sweet, patient, devoted; Newfs are famously good companions</personality>
+    </breed>
+    <breed>
+        <name>Norfolk Terrier</name>
+        <description>The Norfolk Terrier, game and hardy, with expressive dropped ears, is one of the smallest of the working terriers. It is active and compact, free-moving, with good substance and bone. With its natural, weather-resistant coat and short legs, it is a &quot;perfect demon&quot; in the field. This versatile, agreeable breed can go to ground, bolt a fox and tackle or dispatch other small vermin, working alone or with a pack. Honorable scars from wear and tear are acceptable in the ring.</description>
+        <ranking>136th</ranking>
+        <personality>Alert, fearless, fun-loving, and more sociable than the usual terrier.</personality>
+    </breed>
+    <breed>
+        <name>Norrbottenspets</name>
+        <description>The Norrbottenspets is a small, spitz-type hound of Nordic origin that uses sight, scent, and hearing to hunt forest game and then holds the game at bay and calls the hunter with high-pitched vocalizations. To navigate the rough terrain and climate of Scandinavian forests and hold large dangerous game, like moose, Norrbottenspets are extremely agile, rugged, and weatherproof with a fearless attitude, while at the same time kind and affectionate companions at fireside and home. Norrbottenspets exhibit no extremes in physical characteristics because they must do all things well. </description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Lancashire Heeler</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Kai Ken</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Norwegian Elkhound</name>
+        <description>The Norwegian Elkhound is a hardy gray hunting dog. In appearance, a typical northern dog of medium size and substance, square in profile, close coupled and balanced in proportions. The head is broad with prick ears, and the tail is tightly curled and carried over the back. The distinctive gray coat is dense and smooth lying. As a hunter, the Norwegian Elkhound has the courage, agility and stamina to hold moose and other big game at bay by barking and dodging attack, and the endurance to track for long hours in all weather over rough and varied terrain.</description>
+        <ranking>92nd</ranking>
+        <personality>Confident, dependable; dignified but friendly.</personality>
+    </breed>
+    <breed>
+        <name>Norwegian Lundehund</name>
+        <description>The Norwegian Lundehund is a small rectangular and agile Spitz breed with unique characteristics not found in any other breed. Originating on remote islands of arctic Norway, the dog was used to wrestle and retrieve live puffin birds from the crevices of steep vertical cliffs. To enable the dog to climb, descend, and brake on these cliffs, unique structural characteristics have evolved and must be present as they define this breed: a minimum of six toes on each foot and elongated rear foot pads; an elastic neck that allows the head to bend backward to touch the spine, letting the dog turn around in narrow puffin bird caves; and shoulders flexible enough to allow the front legs to extend flat to the side in order to hug the cliffs. This shoulder structure produces a peculiar rotary movement. Finally, the ears close and fold forward or backward to protect from debris. The temperament is alert but not expected to be outgoing toward strangers.</description>
+        <ranking>187th</ranking>
+        <personality>Loving and loyal, also brave, tenacious, and a bit stubborn.</personality>
+    </breed>
+    <breed>
+        <name>Norwich Terrier</name>
+        <description>The Norwich Terrier, spirited and stocky with sensitive prick ears and a slightly foxy expression, is one of the smallest working terriers. This sturdy descendent of ratting companions, eager to dispatch small vermin alone or in a pack, has good bone and substance and an almost weatherproof coat. A hardy hunt terrier-honorable scars from fair wear and tear are acceptable.</description>
+        <ranking>107th</ranking>
+        <personality>Alert, curious, affectionate, gregarious, loyal</personality>
+    </breed>
+    <breed>
+        <name>Nova Scotia Duck Tolling Retriever</name>
+        <description>This medium sized, powerful, compact, balanced dog is the smallest of the retrievers. The Toller&apos;s attitude and bearing suggest strength with a high degree of agility. He is alert, determined, and quick, with a keen desire to work and please. Many Tollers have a slightly sad or worried expression when they are not working. The moment the slightest indication is given that retrieving is required, they set themselves for springy action with an expression of intense concentration and excitement. The heavily feathered tail is held high in constant motion while working.</description>
+        <ranking>103rd</ranking>
+        <personality>Smart, outgoing, busy; as affectionate and eager to please as any good retriever.</personality>
+    </breed>
+    <breed>
+        <name>Old English Sheepdog</name>
+        <description>A strong, compact, square, balanced dog. Taking him all around, he is profusely, but not excessively coated, thickset, muscular and able-bodied. These qualities, combined with his agility, fit him for the demanding tasks required of a shepherd&apos;s or drover&apos;s dog. Therefore, soundness is of the greatest importance. His bark is loud with a distinctive &quot;pot-casse&quot; ring in it.</description>
+        <ranking>75th</ranking>
+        <personality>Adaptable, smart, gentle; Old English Sheepdogs are famous for their sweet, agreeable nature.</personality>
+    </breed>
+    <breed>
+        <name>Otterhound</name>
+        <description>The Otterhound is a large, rough-coated hound with an imposing head showing great strength and dignity, and the strong body and long striding action fit for a long day&apos;s work. It has an extremely sensitive nose, and is inquisitive and perseverant in investigating scents. The Otterhound hunts its quarry on land and water and requires a combination of characteristics unique among hounds-most notably a rough, double coat; and substantial webbed feet. Otterhounds should not be penalized for being shown in working condition (lean, well muscled, with a naturally stripped coat). Any departure from the following points should be considered a fault; its seriousness should be regarded in exact proportion to its degree.</description>
+        <ranking>185th</ranking>
+        <personality>A big-personality dog: boisterous, affectionate, cheerful.</personality>
+    </breed>
+    <breed>
+        <name>Papillon</name>
+        <description>The Papillon is a small, friendly, elegant toy dog of fine-boned structure, light, dainty and of lively action; distinguished from other breeds by its beautiful butterfly-like ears.</description>
+        <ranking>49th</ranking>
+        <personality>Happy, alert, friendly.</personality>
+    </breed>
+    <breed>
+        <name>Parson Russell Terrier</name>
+        <description>To function as a working terrier, he must possess certain characteristics: a ready attitude, alert and confident; balance in height and length; medium in size and bone, suggesting strength and endurance. Important to breed type is a natural appearance: harsh, weatherproof coat with a compact construction and clean silhouette. The coat is broken or smooth. He has a small, flexible chest to enable him to pursue his quarry underground and sufficient length of leg to follow the hounds. </description>
+        <ranking>115th</ranking>
+        <personality>Bold, friendly, athletic, and clever.</personality>
+    </breed>
+    <breed>
+        <name>Kishu Ken</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Pekingese</name>
+        <description>The Pekingese is a well-balanced, compact dog of Chinese origin with a heavy front and lighter hindquarters. Its temperament is one of directness, independence and individuality. Its image is lionlike, implying courage, dignity, boldness and self-esteem rather than daintiness or delicacy.  </description>
+        <ranking>83rd</ranking>
+        <personality>Affectionate, loyal, regal in manner.</personality>
+    </breed>
+    <breed>
+        <name>Perro de Presa Canario</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Peruvian Inca Orchid</name>
+        <description>The Peruvian Inca Orchid/ Peruvian Hairless Dog is a sight hound. Going by his general conformation, it is an elegant and slim dog, whose aspect expresses speed, strength and harmony without ever appearing coarse. The fundamental characteristic of the breed is the absence of hair all over the body in the hairless variety. The minority are the coated examples which are an important part of this breeds genetic makeup. Another particular feature is that the dentition is nearly always incomplete hairless examples.</description>
+        <ranking>166th</ranking>
+        <personality>Lively, alert, playful; charming and well mannered around the house.</personality>
+    </breed>
+    <breed>
+        <name>Petit Basset Griffon Vendeen</name>
+        <description>The Petit Basset Griffon Vendéen is a French scent hound developed first and foremost to hunt small game over the rough and difficult terrain of the Vendéen region. To function efficiently, he must be equipped with certain characteristics. He is bold and vivacious in character; compact, tough and robust in construction. He has an alert outlook, lively bearing and a good voice freely and purposefully used.</description>
+        <ranking>148th</ranking>
+        <personality>Alert, vivacious, and happy-happy-happy!</personality>
+    </breed>
+    <breed>
+        <name>Pharaoh Hound</name>
+        <description>General Appearance is one of grace, power and speed. The Pharaoh Hound is medium sized, of noble bearing with hard clean-cut lines-graceful, well balanced, very fast with free easy movement and alert expression. The following description is that of the ideal Pharaoh Hound. Any deviation from the below described dog must be penalized to the extent of the deviation.</description>
+        <ranking>176th</ranking>
+        <personality>Smart and alert; noble, but friendly and affectionate.</personality>
+    </breed>
+    <breed>
+        <name>Plott</name>
+        <description>A hunting hound of striking color that traditionally brings big game to bay or tree, the Plott is intelligent, alert and confident. Noted for stamina, endurance, agility, determination and aggressiveness when hunting, the powerful, well muscled, yet streamlined Plott combines courage with athletic ability.</description>
+        <ranking>150th</ranking>
+        <personality>Sweetly gentle with people, but fearless, implacable, and bold at work.</personality>
+    </breed>
+    <breed>
+        <name>Pointer</name>
+        <description>The Pointer is bred primarily for sport afield; he should unmistakably look and act the part. The ideal specimen gives the immediate impression of compact power and agile grace; the head noble, proudly carried; the expression intelligent and alert; the muscular body bespeaking both staying power and dash. Here is an animal whose every movement shows him to be a wide-awake, hard-driving hunting dog possessing stamina, courage, and the desire to go. And in his expression are the loyalty and devotion of a true friend of man.</description>
+        <ranking>113th</ranking>
+        <personality>Even-tempered, alert, hardworking, and loyal; a peerless hunting partner.</personality>
+    </breed>
+    <breed>
+        <name>Polish Lowland Sheepdog</name>
+        <description> Medium-sized, compact, strong and muscular with a long, thick coat and hanging hair that covers the eyes. He is shaggy and natural in appearance with a docked or natural bobbed tail. His herding and working ability is attributed to an intense desire to please and compatible nature. He is lively but self-controlled, clever and perceptive. The breed is well known for an excellent memory and the ability to work independent of his master.</description>
+        <ranking>169th</ranking>
+        <personality>Lively, clever, confident; very loyal, but an independent worker.</personality>
+    </breed>
+    <breed>
+        <name>Pomeranian</name>
+        <description>The Pomeranian is a compact, short-backed, active toy dog of Nordic descent. The double coat consists of a short dense undercoat with a profuse harsh-textured longer outer coat. The heavily plumed tail is one of the characteristics of the breed. It is set high and lies flat on the back. He is alert in character, exhibits intelligence in expression, is buoyant in deportment, and is inquisitive by nature. The Pomeranian is cocky, commanding, and animated as he gaits. He is sound in composition and action.</description>
+        <ranking>22nd</ranking>
+        <personality>Lively, bold, and inquisitive—a prototypical &quot;personality breed&quot;.</personality>
+    </breed>
+    <breed>
+        <name>Poodle</name>
+        <description>That of a very active, intelligent and elegant-appearing dog, squarely built, well proportioned, moving soundly and carrying himself proudly. Properly clipped in the traditional fashion and carefully groomed, the Poodle has about him an air of distinction and dignity peculiar to himself.</description>
+        <ranking>8th</ranking>
+        <personality>Proud, active and very smart..</personality>
+    </breed>
+    <breed>
+        <name>Portuguese Podengo Pequeno</name>
+        <description>A wedge shaped head (a four sided pyramid) with erect ears, a sickle shaped tail, a sound skeleton, well muscled: very lively and intelligent, sober and rustic. This is a breed of moderation.</description>
+        <ranking>158th</ranking>
+        <personality>Lively, alert, playful; charming and well mannered around the house.</personality>
+    </breed>
+    <breed>
+        <name>Portuguese Water Dog</name>
+        <description>This highly intelligent utilitarian breed is distinguished by two coat types, either curly or wavy; an impressive head of considerable breadth and well proportioned mass; a ruggedly built, well-knit body; and a powerful, thickly based tail, carried gallantly or used purposefully as a rudder. The Portuguese Water Dog provides an indelible impression of strength, spirit, and soundness.</description>
+        <ranking>53rd</ranking>
+        <personality>The PWD is an “A” student: Affectionate, athletic, and adventurous.</personality>
+    </breed>
+    <breed>
+        <name>Lowchen</name>
+        <description>A small, bright, and lively dog that originated as a companion breed in pre-Renaissance Europe where ladies of the court groomed it in the likeness of a little lion. Breed characteristics are a compact, balanced body; a relatively short, broad topskull and muzzle; and a proud, lively gait that accentuates the lion cut with a long flowing mane. These quintessential features, combined with an outgoing and positive attitude, result in a dog of great style.</description>
+        <ranking>166th</ranking>
+        <personality>Affectionate, outgoing, strong willed, and brave as a lion.</personality>
+    </breed>
+    <breed>
+        <name>Pug</name>
+        <description>Symmetry and general appearance are decidedly square and cobby. A lean, leggy Pug and a dog with short legs and a long body are equally objectionable.</description>
+        <ranking>34th</ranking>
+        <personality>Even-tempered, charming, mischievous and loving.</personality>
+    </breed>
+    <breed>
+        <name>Mastiff</name>
+        <description>The Mastiff is a large, massive, symmetrical dog with a well-knit frame. The impression is one of grandeur and dignity. Dogs are more massive throughout. Bitches should not be faulted for being somewhat smaller in all dimensions while maintaining a proportionally powerful structure. A good evaluation considers positive qualities of type and soundness with equal weight.</description>
+        <ranking>26th</ranking>
+        <personality>Courageous and dignified, but good-natured and docile.</personality>
+    </breed>
+    <breed>
+        <name>Mudi</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Pumi</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Pyrenean Mastiff</name>
+        <description></description>
+        <ranking></ranking>
+        <personality>Calm, patient, smart; strong-willed yet affectionate.</personality>
+    </breed>
+    <breed>
+        <name>Rafeiro do Alentejo</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Rat Terrier</name>
+        <description>The Rat Terrier was originally bred for ratting and farm work. A multipurpose companion dog that is capable of hunting rodents and vermin above and below ground, and to course small game. He is a sturdy, compact, small-to-medium sized parti-colored dog giving the appearance of elegance and fitness, denoting speed, power and balance.  Honorable scars or a couple of broken or missing canines or incisors teeth are not to be faulted.  The following is a description of the ideal Rat Terrier.  Variations are penalized to the extent of the deviation.</description>
+        <ranking>105th</ranking>
+        <personality>Friendly, lovable, inquisitive; fearlessly game for just about anything.</personality>
+    </breed>
+    <breed>
+        <name>Nederlandse Kooikerhondje</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Redbone Coonhound</name>
+        <description>Hunted from swamplands to mountains, the Redbone is surefooted and swift, even on the most difficult terrain. Well-balanced, with a flashy red coat and excellent cold nose, the powerfully built Redbone mingles handsome looks with a confident air and fine hunting talents.</description>
+        <ranking>144th</ranking>
+        <personality>Even-tempered, amiable, and kindly at home, but a tiger on the trail.</personality>
+    </breed>
+    <breed>
+        <name>Rhodesian Ridgeback</name>
+        <description>The Ridgeback represents a strong, muscular and active hound, symmetrical and balanced in outline. A mature Ridgeback is a handsome, upstanding and athletic dog, capable of great endurance with a fair (good) amount of speed. Of even, dignified temperament, the Ridgeback is devoted and affectionate to his master, reserved with strangers. The peculiarity of this breed is the ridge on the back. The ridge must be regarded as the characteristic feature of the breed.</description>
+        <ranking>41st</ranking>
+        <personality>Dignified, even tempered; affectionate toward loved ones, reserved with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Rottweiler</name>
+        <description>The ideal Rottweiler is a medium large, robust and powerful dog, black with clearly defined rust markings. His compact and substantial build denotes great strength, agility and endurance. Dogs are characteristically more massive throughout with larger frame and heavier bone than bitches. Bitches are distinctly feminine, but without weakness of substance or structure.</description>
+        <ranking>9th</ranking>
+        <personality>Reserved with strangers and affectionate and loyal with his family.</personality>
+    </breed>
+    <breed>
+        <name>Norwegian Buhund</name>
+        <description>The Norwegian Buhund is a herding dog. It is a typical northern breed, a little under medium size and squarely built, with a tightly curled tail carried over the back. The head is wedge-shaped and not too heavy, with prick ears. As it is extremely intelligent by nature, consistent training is needed from early puppyhood. The Buhund has a lot of energy, strength and stamina. This self-appointed watchdog is also content lying at your feet at the end of the day. Broken teeth and honorable scars incurred in the line of herding duty are acceptable.</description>
+        <ranking>170th</ranking>
+        <personality>Smart, perceptive, confident, and a total sweetheart.</personality>
+    </breed>
+    <breed>
+        <name>Russell Terrier</name>
+        <description>The Russell Terrier is a strong, active, lithe, predominately white bodied working Terrier of character with a flexible body of moderate length and rectangular profile. The overall dog must present a balanced image with no one part exaggerated over another. The Russell Terrier is full of life, and moves with confidence that matches his keen expression. Coat may be smooth, broken or rough and may have tan and/or black markings with no preference for coat type or markings. Tail docking is optional.</description>
+        <ranking>108th</ranking>
+        <personality>Alert, lively, inquisitive, and friendly.</personality>
+    </breed>
+    <breed>
+        <name>Saluki</name>
+        <description>The whole appearance of this breed should give an impression of grace and symmetry and of great speed and endurance coupled with strength and activity to enable it to kill gazelle or other quarry over deep sand or rocky mountains. The expression should be dignified and gentle with deep, faithful, far-seeing eyes. Dogs should average in height from 23 to 28 inches and bitches may be considerably smaller, this being very typical of the breed.</description>
+        <ranking>137th</ranking>
+        <personality>Gentle, dignified, loyal but independent-minded.</personality>
+    </breed>
+    <breed>
+        <name>Samoyed</name>
+        <description>The Samoyed, being essentially a working dog, should present a picture of beauty, alertness and strength, with agility, dignity and grace. As his work lies in cold climates, his coat should be heavy and weather-resistant, well groomed, and of good quality rather than quantity. Males should be masculine in appearance and deportment without unwarranted aggressiveness; bitches feminine without weakness of structure or apparent softness of temperament. Bitches may be slightly longer in back than males. They should both give the appearance of being capable of great endurance but be free from coarseness. Because of the depth of chest required, the legs should be moderately long.General appearance should include movement and general conformation, indicating balance and good substance.</description>
+        <ranking>63rd</ranking>
+        <personality>Gentle, adaptable, eager, friendly; conservative but never shy</personality>
+    </breed>
+    <breed>
+        <name>Pembroke Welsh Corgi</name>
+        <description>Low-set, strong, sturdily built and active, giving an impression of substance and stamina in a small space. Should not be so low and heavy-boned as to appear coarse or overdone, nor so light-boned as to appear racy. Outlook bold, but kindly. Expression intelligent and interested. Never shy nor vicious.</description>
+        <ranking>21st</ranking>
+        <personality>Smart and alert, affectionate but not pushy, bold but kindly.</personality>
+    </breed>
+    <breed>
+        <name>Schapendoes</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Schipperke</name>
+        <description>The Schipperke is an agile, active watchdog and hunter of vermin. In appearance he is a small, thickset, cobby, black, tailless dog, with a fox-like face. The dog is square in profile and possesses a distinctive coat, which includes a stand-out ruff, cape and culottes. All of these create a unique silhouette, appearing to slope from shoulders to croup. Males are decidedly masculine without coarseness. Bitches are decidedly feminine without over-refinement. Any deviation from the ideal described in the standard should be penalized to the extent of the deviation. Faults common to all breeds are as undesirable in the Schipperke as in any other breed, even though such faults may not be specifically mentioned in the standard.</description>
+        <ranking>113th</ranking>
+        <personality>Alert, curious, confident; intense, but with a dash of mischief and impudence</personality>
+    </breed>
+    <breed>
+        <name>Sealyham Terrier</name>
+        <description>Long, broad and powerful, without coarseness. It should, however, be in perfect balance with the body, joining neck smoothly. Length of head roughly three-quarters height at withers, or about an inch longer than neck. Breadth between ears a little less than one-half length of head. stop. Cheeks - Smoothly formed and flat, without heavy jowls. Jaws - Powerful and square. Nose - Black, with large nostrils. White, cherry or butterfly bad faults.</description>
+        <ranking>163rd</ranking>
+        <personality>Alert and outgoing; stubbornness is tempered by a sly sense of humor</personality>
+    </breed>
+    <breed>
+        <name>Portuguese Podengo</name>
+        <description>Well-proportioned muscled, sound with moderate bone. Lean 4-sided pyramid shaped head with prick ears. Tail - sickle-shaped. Over emphasis on any one feature should be strongly avoided. The Medio and Grande come in two coat textures, smooth and wire. The Podengo is a hunting dog; scars from honorable wounds shall not be considered a fault.</description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Portuguese Pointer</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Shiba Inu</name>
+        <description>The Shiba is the smallest of the Japanese native breeds of dog and was originally developed for hunting by sight and scent in the dense undergrowth of Japan&apos;s mountainous areas. Alert and agile with keen senses, he is also an excellent watchdog and companion. His frame is compact with well-developed muscles. Males and females are distinctly different in appearance: males are masculine without coarseness, females are feminine without weakness of structure.</description>
+        <ranking>46th</ranking>
+        <personality>Alert, active, and attentive</personality>
+    </breed>
+    <breed>
+        <name>Portuguese Sheepdog</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Shih Tzu</name>
+        <description>The Shih Tzu is a sturdy, lively, alert toy dog with long flowing double coat. Befitting his noble Chinese ancestry as a highly valued, prized companion and palace pet, the Shih Tzu is proud of bearing, has a distinctively arrogant carriage with head well up and tail curved over the back. Although there has always been considerable size variation, the Shih Tzu must be compact, solid, carrying good weight and substance. Even though a toy dog, the Shih Tzu must be subject to the same requirements of soundness and structure prescribed for all breeds, and any deviation from the ideal described in the standard should be penalized to the extent of the deviation.</description>
+        <ranking>20th</ranking>
+        <personality>Outgoing, affectionate, playful and charming</personality>
+    </breed>
+    <breed>
+        <name>Siberian Husky</name>
+        <description>The Siberian Husky is a medium-sized working dog, quick and light on his feet and free and graceful in action. His moderately compact and well furred body, erect ears and brush tail suggest his Northern heritage. His characteristic gait is smooth and seemingly effortless. He performs his original function in harness most capably, carrying a light load at a moderate speed over great distances. His body proportions and form reflect this basic balance of power, speed and endurance. </description>
+        <ranking>12th</ranking>
+        <personality>Friendly, gentle, dignified; alert, but not aggressive.</personality>
+    </breed>
+    <breed>
+        <name>Puli</name>
+        <description>The Puli is a compact, square appearing, well balanced dog of medium size. He is vigorous, alert and active. Striking and highly characteristic is the shaggy coat which, combined with his light-footed, distinctive movement, has fitted him for the strenuous work of herding flocks on the plains of Hungary. Agility, combined with soundness of mind and body, is of prime importance for the proper fulfillment of this centuries-old task.</description>
+        <ranking>159th</ranking>
+        <personality>Loyal, smart, home-loving; strong-willed but trainable.</personality>
+    </breed>
+    <breed>
+        <name>Skye Terrier</name>
+        <description>The Skye Terrier is a dog of style, elegance and dignity: agile and strong with sturdy bone and hard muscle. Long, low and level-he is twice as long as he is high-he is covered with a profuse coat that falls straight down either side of the body over oval-shaped ribs. The hair well feathered on the head veils forehead and eyes to serve as protection from brush and briar as well as amid serious encounters with other animals. He stands with head high and long tail hanging and moves with a seemingly effortless gait. He is strong in body, quarter and jaw.</description>
+        <ranking>180th</ranking>
+        <personality>Plucky but dignified, calm but sometimes stubborn; famously loyal and devoted.</personality>
+    </breed>
+    <breed>
+        <name>Pyrenean Shepherd</name>
+        <description>A small, sinewy, lean, lively dog whose sparkling personality and quicksilver intelligence are reflected in the vibrant expression of his unique triangular head and windswept face. A superb athlete, his beautiful, flowing gait &quot;shaves the earth.&quot; Uncoiffed, light-boned and built as a horizontal rectangle, his high energy and intelligent, cunning, mischievous attitude show that he is always on alert, suspicious, ready for action. An ardent herder of all kinds of livestock, his vigilant attitude and great vivacity of movement give this little dog a highly singular gait and appearance, characteristic of no other breed. </description>
+        <ranking>181st</ranking>
+        <personality>Enthusiastic, mischievous, and whip-smart; playful with family, wary of strangers.</personality>
+    </breed>
+    <breed>
+        <name>Scottish Terrier</name>
+        <description>The Scottish Terrier is a small, compact, short-legged, sturdily-built dog of good bone and substance. His head is long in proportion to his size. He has a hard, wiry, weather-resistant coat and a thick-set, cobby body which is hung between short, heavy legs. These characteristics, joined with his very special keen, piercing, &quot;varminty&quot; expression, and his erect ears and tail are salient features of the breed. The Scottish Terrier&apos;s bold, confident, dignified aspect exemplifies power in a small package.</description>
+        <ranking>60th</ranking>
+        <personality>Independent, confident, and never shy; spirited but dignified</personality>
+    </breed>
+    <breed>
+        <name>Slovensky Kopov</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Smooth Fox Terrier</name>
+        <description>The Terrier, like the Hound, must on no account be leggy, nor must he be too short in the leg. He should stand like a cleverly made hunter, covering a lot of ground, yet with a short back, as stated below. He will then attain the highest degree of propelling power, together with the greatest length of stride that is compatible with the length of his body. Weight is not a certain criterion of a Terrier&apos;s fitness for his work-general shape, size and contour are the main points; and if a dog can gallop and stay, and follow his fox up a drain, it matters little what his weight is to a pound or so.</description>
+        <ranking>127th</ranking>
+        <personality>Friendly and family oriented; bright enough to have a mind of their own</personality>
+    </breed>
+    <breed>
+        <name>Russian Toy</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Russian Tsvetnaya Bolonka</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Soft Coated Wheaten Terrier</name>
+        <description>The Soft Coated Wheaten Terrier is a medium-sized, hardy, well balanced sporting terrier, square in outline. He is distinguished by his soft, silky, gently waving coat of warm wheaten color and his particularly steady disposition. The breed requires moderation both in structure and presentation, and any exaggerations are to be shunned. He should present the overall appearance of an alert and happy animal, graceful, strong and well coordinated.</description>
+        <ranking>48th</ranking>
+        <personality>Happy, friendly, and deeply devoted; just stubborn enough to remind you they’re terriers.</personality>
+    </breed>
+    <breed>
+        <name>Spanish Mastiff</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Spanish Water Dog</name>
+        <description>A rustic breed of the Iberian Peninsula, the Spanish Water Dog is a sturdy, medium sized, well proportioned, athletic dog that is suited to perform a variety of tasks including herding, hunting, and assisting fishermen. He is a loyal, vigilant, and intelligent working dog with strong herding instincts. His working ability is attributed to an intense desire to please. In profile, the Spanish Water Dog is slightly longer than tall. He has a distinctive curly coat, which is adapted to the variation of humidity and drought of his homeland. </description>
+        <ranking>172nd</ranking>
+        <personality>Faithful, hardworking, lively; affectionate with family, and a vigilant watchdog</personality>
+    </breed>
+    <breed>
+        <name>Spinone Italiano</name>
+        <description>Muscular dog with powerful bone. Vigorous and robust, his purpose as hardworking gun dog is evident. Naturally sociable, the docile and patient Spinone is resistant to fatigue and is an experienced hunter on any terrain. His hard textured coat is weather resistant. His wiry, dense coat and thick skin enable the Spinone to negotiate underbrush and endure cold water that would severely punish any dog not so naturally armored. He has a remarkable tendency for an extended and fast trotting gait. The Spinone is an excellent retriever by nature.</description>
+        <ranking>116th</ranking>
+        <personality>Sociable, docile, patient; occasionally stubborn but always a character.</personality>
+    </breed>
+    <breed>
+        <name>St. Bernard</name>
+        <description>Powerful, proportionately tall figure, strong and muscular in every part, with powerful head and most intelligent expression. In dogs with a dark mask the expression appears more stern, but never ill-natured.</description>
+        <ranking>50th</ranking>
+        <personality>Friendly, patient, outgoing; known as a great “nanny dog” for kids.</personality>
+    </breed>
+    <breed>
+        <name>Scottish Deerhound</name>
+        <description>Should be broadest at the ears, narrowing slightly to the eyes, with the muzzle tapering more decidedly to the nose.The head should be long, the skull flat rather than round with a very slight rise over the eyes but nothing approaching a stop. Ears: Should be set on high; in repose, folded back like a Greyhound&apos;s, though raised above the head in excitement without losing the fold, and even in some cases semi-erect. A prick ear is bad. Big thick ears hanging flat to the head or heavily coated with long hair are bad faults. The ears should be soft, glossy, like a mouse&apos;s coat to the touch and the smaller the better. There should be no long coat or long fringe, but there is sometimes a silky, silvery coat on the body of the ear and the tip. On all Deerhounds, irrespective of color of coat, the ears should be black or dark colored.Eyes: Should be dark-generally dark brown, brown or hazel. A very light eye is not liked. The eye should be moderately full, with a soft look in repose, but a keen, far away look when the Deerhound is roused. Rims of eyelids should be black.</description>
+        <ranking>151st</ranking>
+        <personality>Dignified, gentle, polite; quietly intelligent and perceptive.</personality>
+    </breed>
+    <breed>
+        <name>Stabyhoun</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Staffordshire Bull Terrier</name>
+        <description>The Staffordshire Bull Terrier is a smooth-coated dog. It should be of great strength for its size and, although muscular, should be active and agile.</description>
+        <ranking>82nd</ranking>
+        <personality>Brave, tenacious, a bit stubborn; but also gentle, playful, and clever.</personality>
+    </breed>
+    <breed>
+        <name>Standard Schnauzer</name>
+        <description>The Standard Schnauzer is a robust, heavy-set dog, sturdily built with good muscle and plenty of bone; square-built in proportion of body length to height. His rugged build and dense harsh coat are accentuated by the hallmark of the breed, the arched eyebrows and the bristly mustache and whiskers. </description>
+        <ranking>95th</ranking>
+        <personality>Smart, fearless, sometimes willful; spirited, but ever reliable.</personality>
+    </breed>
+    <breed>
+        <name>Sussex Spaniel</name>
+        <description>Its short legs, massive build, long body, and habit of giving tongue when on scent made the breed ideally suited to penetrating the dense undergrowth and flushing game within range of the gun. Strength, maneuverability, and desire were essential for this purpose. Although it has never gained great popularity in numbers, the Sussex Spaniel continues today essentially unchanged in character and general appearance from those 19th century sporting dogs. The Sussex Spaniel presents a long and low, rectangular and rather massive appearance coupled with free movements and nice tail action. The breed has a somber and serious expression. The rich golden liver color is unique to the breed.</description>
+        <ranking>178th</ranking>
+        <personality>Merry and friendly, in the classic spaniel manner.</personality>
+    </breed>
+    <breed>
+        <name>Thai Ridgeback</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Tibetan Mastiff</name>
+        <description>Noble and impressive: a large, but not a giant breed. An athletic and substantial dog, of solemn but kindly appearance. The Tibetan Mastiff stands well up on the pasterns, with strong, tight, cat feet, giving an alert appearance. The body is slightly longer than tall. The hallmarks of the breed are the head and the tail. The head is broad and impressive, with substantial back skull, the eyes deep-set and almond shaped, slightly slanted, the muzzle broad and well-padded, giving a square appearance. The typical expression of the breed is one of watchfulness. The tail and britches are well feathered and the tail is carried over the back in a single curl falling over the loin, balancing the head. The coat and heavy mane is thick, with coarse guard hair and a wooly undercoat.  </description>
+        <ranking>138th</ranking>
+        <personality>Mellow and calm around the house; devoted to family, reserved and territorial with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Shetland Sheepdog</name>
+        <description>The Shetland Sheepdog is a small, alert, rough-coated, longhaired working dog. He must be sound, agile and sturdy. The outline should be so symmetrical that no part appears out of proportion to the whole. Dogs should appear masculine; bitches feminine.</description>
+        <ranking>24th</ranking>
+        <personality>Bright, playful, and energetic</personality>
+    </breed>
+    <breed>
+        <name>Tibetan Spaniel</name>
+        <description>Should be small, active and alert. The outline should give a well balanced appearance, slightly longer in body than the height at withers. Fault - Coarseness of type.</description>
+        <ranking>120th</ranking>
+        <personality>Self-confident, bright, loving, and playful.</personality>
+    </breed>
+    <breed>
+        <name>Tibetan Terrier</name>
+        <description>The Tibetan Terrier is a medium-sized dog, profusely coated, of powerful build, and square in proportion. A fall of hair covers the eyes and foreface. The well-feathered tail curls up and falls forward over the back. The feet are large, flat, and round in shape producing a snowshoe effect that provides traction. The Tibetan Terrier is well balanced and capable of both strong and efficient movement. The Tibetan Terrier is shown as naturally as possible.</description>
+        <ranking>94th</ranking>
+        <personality>Affectionate, sensitive, clever, and vocal; TTs are like little people in dog suits.</personality>
+    </breed>
+    <breed>
+        <name>Shikoku</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Toy Fox Terrier</name>
+        <description>The Toy Fox Terrier is truly a toy and a terrier and both have influenced his personality and character. As a terrier, the Toy Fox Terrier possesses keen intelligence, courage, and animation. As a toy his is diminutive, and devoted with an endless abiding love for his master. The Toy Fox Terrier is a well-balanced Toy dog of athletic appearance displaying grace and agility in equal measure with strength and stamina. His lithe muscular body has a smooth elegant outline which conveys the impression of effortless movement and endless endurance. He is naturally well groomed, proud, animated, and alert. Characteristic traits are his elegant head, his short glossy and predominantly white coat, coupled with a predominantly solid head, and his short high-set tail.</description>
+        <ranking>114th</ranking>
+        <personality>Toy Fox Terriers are outgoing and friendly, yet fiercely loyal to their families.</personality>
+    </breed>
+    <breed>
+        <name>Silky Terrier</name>
+        <description>The Silky Terrier is a true &quot;toy terrier&quot;. He is moderately low set, slightly longer than tall, of refined bone structure, but of sufficient substance to suggest the ability to hunt and kill domestic rodents. His coat is silky in texture, parted from the stop to the tail and presents a well groomed but not sculptured appearance. His inquisitive nature and joy of life make him an ideal companion.</description>
+        <ranking>106th</ranking>
+        <personality>Friendly, vivacious, cheeky; in all ways a true terrier.</personality>
+    </breed>
+    <breed>
+        <name>Treeing Tennessee Brindle</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Treeing Walker Coonhound</name>
+        <description>Characteristics - Called &apos;the people&apos;s choice&apos; among all coonhound breeds, the energetic Treeing Walker is perfectly suited for the task for which it was bred - tracking and treeing wild raccoons in their natural haunts. The breed&apos;s competitive spirit makes it an ideal choice for competitive coonhound events where the breed excels. The Treeing Walker Coonhound is alert, intelligent, active, courteous, and courageous with extreme endurance and the desire to perform.</description>
+        <ranking>122nd</ranking>
+        <personality>Smart, brave, and often described as sensible and courteous.</personality>
+    </breed>
+    <breed>
+        <name>Vizsla</name>
+        <description>That of a medium-sized, short-coated, hunting dog of distinguished appearance and bearing. Robust but rather lightly built, the coat is an attractive shaded golden rust. Originating in Hungary, the Vizsla was bred to work in field, forest and water. Agile and energetic, this is a versatile dog of power, drive and endurancein the field yet a tractable and affectionate companion in the home. It is strongly emphasized that field conditioned coats, as well as brawny or sinewy muscular condition and honorable scars indicating a working and hunting dog are never to be penalized in this dog. The requisite instincts and abilities to maintain a &quot;dual dog&quot; are always to be fostered and appreciated, never deprecated.</description>
+        <ranking>33rd</ranking>
+        <personality>Gentle, affectionate, energetic and eager.</personality>
+    </breed>
+    <breed>
+        <name>Weimaraner</name>
+        <description>A medium-sized gray dog, with fine aristocratic features. He should present a picture of grace, speed, stamina, alertness and balance. Above all, the dog&apos;s conformation must indicate the ability to work with great speed and endurance in the field.</description>
+        <ranking>34th</ranking>
+        <personality>Friendly, fearless, alert, obedient.</personality>
+    </breed>
+    <breed>
+        <name>Slovensky Cuvac</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Sloughi</name>
+        <description>The Sloughi is a medium-large, short-haired, smooth-coated, athletic sighthound developed in North Africa (in the area including Morocco, Algeria, Tunisia, and Libya) to hunt game such as hare, fox, jackal, gazelle, and wild pigs. It is an ancient breed, treasured in North Africa for its hunting skills, speed, agility, and endurance over long distances. It is a robust, but elegant and racy, pursuit dog with no exaggeration of length of body or limbs, muscle development, angulation, nor curve of loin. The Sloughi is not a fragile dog, but is also a dog with class and grace. The attitude is noble and somewhat aloof, and the expression of the dark eyes is gentle and melancholy.</description>
+        <ranking>117th</ranking>
+        <personality>Noble and somewhat aloof, however are faithful to owners</personality>
+    </breed>
+    <breed>
+        <name>Welsh Springer Spaniel</name>
+        <description>The Welsh Springer Spaniel is an attractive dog of handy size, exhibiting substance without coarseness. He is compact, not leggy, obviously built for hard work and endurance. The Welsh Springer Spaniel gives the impression of length due to obliquely angled forequarters and well developed hindquarters. Being a hunting dog, he should be shown in hard muscled working condition. His coat should not be so excessive as to hinder his work as an active flushing spaniel, but should be thick enough to protect him from heavy cover and weather.</description>
+        <ranking>127th</ranking>
+        <personality>Happy, upbeat, family oriented; reserved but not shy with strangers.</personality>
+    </breed>
+    <breed>
+        <name>Small Munsterlander Pointer</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>West Highland White Terrier</name>
+        <description>The West Highland White Terrier is a small, game, well-balanced hardy looking terrier, exhibiting good showmanship, possessed with no small amount of self-esteem, strongly built, deep in chest and back ribs, with a straight back and powerful hindquarters on muscular legs, and exhibiting in marked degree a great combination of strength and activity. The coat is about two inches long, white in color, hard, with plenty of soft undercoat. The dog should be neatly presented, the longer coat on the back and sides, trimmed to blend into the shorter neck and shoulder coat. Considerable hair is left around the head to act as a frame for the face to yield a typical Westie expression.</description>
+        <ranking>42nd</ranking>
+        <personality>Happy, smart, loyal, entertaining.</personality>
+    </breed>
+    <breed>
+        <name>Whippet</name>
+        <description>Keen intelligent alert expression. Eyes large, round to oval in shape. Small and/or almond shaped eyes are undesirable and are to be faulted. Eyes to be dark brown to nearly black in color. Eye color can vary with coat color, but regardless of coat color dark eyes are always preferred. Light eyes are undesirable and yellow eyes are to be strictly penalized. Blue eye(s) or any portion of blue in the eye(s), as well as both eyes not being of the same color shall disqualify. Fully pigmented eye rims are desirable. Rose ears, small, fine in texture; in repose, thrown back and folded along neck. Fold should be maintained when at attention. Erect ears should be severely penalized.</description>
+        <ranking>59th</ranking>
+        <personality>Calm, affectionate, and playful.</personality>
+    </breed>
+    <breed>
+        <name>Wirehaired Pointing Griffon</name>
+        <description>Medium sized, with a noble, square-shaped head, strong of limb, bred to cover all terrain encountered by the walking hunter. Movement showing an easy catlike gracefulness. Excels equally as a pointer in the field, or a retriever in the water. Coat is hard and coarse, never curly or woolly, with a thick undercoat of fine hair, giving an unkempt appearance. His easy trainability, devotion to family, and friendly temperament endear him to all. The nickname of &quot;supreme gundog&quot; is well earned.</description>
+        <ranking>68th</ranking>
+        <personality>Outgoing, eager, quick-minded; trustworthy in the field and around the house.</personality>
+    </breed>
+    <breed>
+        <name>Wirehaired Vizsla</name>
+        <description>The Wirehaired Vizsla is a distinguished, versatile hunting dog of medium size, bred for substance and a dense wire coat. Balanced in size and proportion, the Wirehaired Vizsla is robust and lean. Movement is powerful yet graceful with far reaching drive enabling the breed to hunt in all elements and cover any terrain encountered by the walking hunter. The breed possesses an excellent nose for hunting and tracking feather and fur on land and in water, as well as a natural point and retrieve. The breed&apos;s most distinguishing features are its weather resistant dense wire coat and its facial furnishings, specifically its beard and eyebrows. Natural appearance is essential to breed type, therefore the Wirehaired Vizsla is to be shown with limited stripping and should not be penalized for being shown in working condition: sinewy, well muscled, with honorable scars.</description>
+        <ranking>161st</ranking>
+        <personality>Calm and gentle around the house; an exuberant hunter on land or lake.</personality>
+    </breed>
+    <breed>
+        <name>Working Kelpie</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Xoloitzcuintli</name>
+        <description>The Xolo is an ancient, natural breed, molded by evolution rather than selective breeding. A Xolo is moderate in all aspects of type and conformation, never extreme or overdone. Today the breed serves as a guard and companion. The Xolo possesses a clean, graceful outline, equally combining elegance and strength. There are two varieties, hairless and coated, identical except for coat and dentition. In the hairless variety, the principal characteristic is the total or almost total absence of hair. The coated variety is covered by a short, flat coat. In conformation, all three sizes are lean, sturdy, well muscled with a spacious rib-cage, and moderate bone. The Xolo outline is rectangular, and the distance from the elbow to ground is equal to, or slightly greater than, the distance from the withers to the elbow. Typical Xolo temperament is calm, tranquil, aloof and attentive.</description>
+        <ranking>140th</ranking>
+        <personality>Loyal, alert, calm, trainable; like any good watchdog, they&apos;re wary of strangers.</personality>
+    </breed>
+    <breed>
+        <name>Yorkshire Terrier</name>
+        <description>That of a long-haired toy terrier whose blue and tan coat is parted on the face and from the base of the skull to the end of the tail and hangs evenly and quite straight down each side of body. The body is neat, compact and well proportioned. The dog&apos;s high head carriage and confident manner should give the appearance of vigor and self-importance.</description>
+        <ranking>7th</ranking>
+        <personality>Sprightly, tomboyish, and affectionate</personality>
+    </breed>
+    <breed>
+        <name>Tosa</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Swedish Vallhund</name>
+        <description>The Swedish Vallhund is a small, powerful, fearless, sturdily built Spitz herding dog. The correct relationship of height to length of body is 2:3. The SV has a wedge-shaped head, prick ears, and a close-fitting hard coat of medium length and sable coloring. The double coat and the characteristic &quot;harness markings&quot; are essential features of this breed. Tail may be natural (long, stub, or bob) or docked. The appearance of the Swedish Vallhund conveys intelligence, alertness and energy. Balance, outline, temperament and movement are of overriding importance.</description>
+        <ranking>160th</ranking>
+        <personality>Sociable, cheerful, alert, and blessed with classic herding-dog intelligence.</personality>
+    </breed>
+    <breed>
+        <name>Swedish Lapphund</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Tornjak</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Welsh Terrier</name>
+        <description>The Welsh Terrier is a sturdy, compact, rugged dog of medium size with a coarse wire-textured coat. The legs, underbody and head are tan; the jacket black (or occasionally grizzle). The tail is docked to length meant to complete the image of a &quot;square dog&quot; approximately as high as he is long. The movement is a terrier trot typical of the long-legged terrier. It is effortless, with good reach and drive. The Welsh Terrier is friendly, outgoing to people and other dogs, showing spirit and courage. The &quot;Welsh Terrier expression&quot; comes from the set, color, and position of the eyes combined with the use of the ears.</description>
+        <ranking>112th</ranking>
+        <personality>As alert and spirited as any self-respecting terrier, but a bit calmer than most.</personality>
+    </breed>
+    <breed>
+        <name>Transylvanian Hound</name>
+        <description></description>
+        <ranking></ranking>
+        <personality></personality>
+    </breed>
+    <breed>
+        <name>Wire Fox Terrier</name>
+        <description>The Terrier should be alert, quick of movement, keen of expression, on the tip-toe of expectation at the slightest provocation. Character is imparted by the expression of the eyes and by the carriage of ears and tail. Bone and strength in a small compass are essential, but this must not be taken to mean that a Terrier should be &quot;cloddy,&quot; or in any way coarse - speed and endurance being requisite as well as power. The Terrier must on no account be leggy, nor must he be too short on the leg. He should stand like a cleverly made, short-backed hunter, covering a lot of ground. N.B. Old scars or injuries, the result of work or accident, should not be allowed to prejudice a Terrier&apos;s chance in the show ring, unless they interfere with its movement or with its utility for work or stud.</description>
+        <ranking>98th</ranking>
+        <personality>Gregarious, alert, and confident, Wires crave attention from their loved ones.</personality>
+    </breed>
+</breeds>

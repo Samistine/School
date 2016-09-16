@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT breeds (breed)*>
+<!ELEMENT breed (name,description,ranking,personality)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ranking (#PCDATA)>
+<!ELEMENT personality (#PCDATA)>

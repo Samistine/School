@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- This took 6-7 hours of work, the folded corner took a good chunk of that time -->
+<html>
+  <head>
+    <title>Samuel Seidel | About Me</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="author" content="Samuel Seidel">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="Wrapper" class="container">
+
+      <div class="box box-header">
+        <header id="Header" class="center">
+          <h1>Samuel Seidel</h1>
+          <h2>Portfolio</h2>
+        </header>
+      </div>
+
+      <div class="box box-leftcolumn">
+        <nav>
+          <header>
+            <h3>Navigational Links</h3>
+          </header>
+          <ul class="center">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+            <li class="selected"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+
+
+
+      <div class="box box-middlecolumn" id="Content">
+        <div class="container-column">
+
+          <div class="box">
+            <form id="contact_form" action="http://www.littleoceanwaves.com/returnvalues.php" method="POST" enctype="multipart/form-data">
+              
+              <div class="row">
+                <label for="name">Your name:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="John Doe" required/><br />
+              </div>
+              
+              <div class="row">
+                <label for="email">Your email:</label><br />
+                <input id="email" class="input" name="email" type="email" value="" size="30" placeholder="john@johndoe.org" required/><br />              </div>
+              
+              <div class="row">
+                <label for="name">Subject:</label><br />
+                <input id="name" class="input" name="subject" type="text" value="" size="30" placeholder="Grettings!" required/><br />
+              </div>
+              
+              <div class="row">
+                <label for="message">Message:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30" required></textarea><br />
+              </div>
+              <input id="submit_button" type="submit" value="Send email" />
+            </form>						
+          </div>
+
+          <!--End Filler-->
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="box box-rightcolumn">
+        <table class="tg2" id="ContactInformation">
+          <thead>
+            <tr><th class="tg2-header">Contact Information</th></tr>
+          </thead>
+          <tbody>
+            <tr><th class="tg2-altcolor bold">Email</th></tr>
+            <tr><td class="tg2-altcolor">samuel@samistine.com</td></tr>
+            <tr><th class="bold">Phone</th></tr>
+            <tr><td>678.576.7222</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <footer id="Footer" class="box box-footer center">
+        <p>Samuel Seidel - <span class="underline">samuel@samistine.com</span></p>
+      </footer>
+
+    </div>
+  </body>
+</html>
