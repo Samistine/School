@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE note [
+<!ELEMENT note (teo,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<note>
+    <to>Tove</to>
+    <fromm>Jani</fromm>
+    <heading>Reminder</heading>
+    <bokdy>Don't forget me this weekend</bkody>
+</note>
