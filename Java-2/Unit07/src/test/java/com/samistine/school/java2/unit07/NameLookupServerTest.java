@@ -5,51 +5,41 @@
  */
 package com.samistine.school.java2.unit07;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.Arrays;
-import java.util.List;
-import org.junit.After;
+import java.net.InetSocketAddress;
+import java.util.Optional;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 /**
  *
  * @author paperspace
  */
-@RunWith(Parameterized.class)
 public class NameLookupServerTest {
-
-    @Parameterized.Parameters
-    public static List<Object[]> data() {
-        return Arrays.asList(new Object[1_000][0]);
+    
+    static {
+        System.setProperty("java.util.logging.SimpleFormatter.format"," ~ %5$s%6$s%n");
     }
 
-    static int port;
-    static String host = "127.0.0.1";
+    static InetSocketAddress address;
     static int dataToSend = 7000123;
     static String expectedResult = "John Doe";
 
     static NameLookupServer server;
 
     @BeforeClass
-    public static void initServer() throws IOException {
-        //Determine port
-        try (ServerSocket ss = new ServerSocket(0)) {
-            port = ss.getLocalPort();
-        }
+    public static void initServer() throws IOException, InterruptedException {
+        address = new InetSocketAddress(19123);
+        System.out.println("Using " + address);
 
-        server = new NameLookupServer(port);
+        System.out.println("Initializing Server");
+        server = new NameLookupServer(address);
+
+        System.out.println("Starting Server\n");
         new Thread(server).start();
+        Thread.sleep(100);//Allow server to start
     }
 
     @AfterClass
@@ -57,34 +47,48 @@ public class NameLookupServerTest {
         server.shutdown();
     }
 
-    Socket socket;
-    DataInputStream feedbackFromServer;
-    DataOutputStream outputToServer;
+    NameLookupClient client;
 
     @Before
     public void setUp() throws IOException {
-        //connect to server 
-        socket = new Socket(host, port);
-        feedbackFromServer = new DataInputStream(socket.getInputStream());
-        outputToServer = new DataOutputStream(socket.getOutputStream());
-    }
-
-    @After
-    public void tearDown() throws IOException {
-        socket.close();
+        //Init NameLookupClient
+        client = new NameLookupClient(address);
     }
 
     @org.junit.Test
-    public void testDataStreamLong() throws IOException {
-        //write the data to the output stream
-        outputToServer.writeLong(dataToSend);
-        //flush it to the server
-        outputToServer.flush();
-        //Response
-        String response = feedbackFromServer.readUTF();
+    public void testConnect() throws IOException {
+        System.out.println("\nTesting testConnect()");
+        System.out.println("Connecting");
+        client.connect();
+    }
+
+    @org.junit.Test
+    public void testDisconnect() throws IOException {
+        System.out.println("\nTesting testDisconnect()");
+        System.out.println("Connecting");
+        client.connect();
+        System.out.println("Disconnecting");
+        client.disconnect();
+    }
+
+    @org.junit.Test
+    public void testLookup() throws IOException {
+        System.out.println("\nTesting testLookup()");
+        //Query
+        Optional<String> response = client.lookup(dataToSend);
         //display returned message
-        System.out.println("        Recieved: " + response);
-        assertEquals(expectedResult, response);
+        System.out.println("Recieved: " + response);
+        assertEquals(expectedResult, response.orElse(null));
+    }
+
+    @org.junit.Test
+    public void testLookup2() throws IOException {
+        System.out.println("\nTesting testLookup2()");
+        //Query
+        Optional<String> response = client.lookup(-1);
+        //display returned message
+        System.out.println("Recieved: " + response);
+        assertEquals(null, response.orElse(null));
     }
 
 }
