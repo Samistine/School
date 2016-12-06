@@ -1,5 +1,7 @@
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.gui;
 
+import com.samistine.school.java2.project.buisness.Student;
+import com.samistine.school.java2.project.data.StudentDAO;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.HeadlessException;

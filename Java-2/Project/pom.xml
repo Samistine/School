@@ -15,7 +15,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>${project.groupId}.project.DisplayStudent</mainClass>
+                            <mainClass>${project.groupId}.project.gui.DisplayStudent</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

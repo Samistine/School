@@ -1,4 +1,4 @@
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.data;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

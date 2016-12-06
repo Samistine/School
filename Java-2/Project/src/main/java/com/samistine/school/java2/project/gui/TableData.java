@@ -1,4 +1,4 @@
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.gui;
 
 import java.util.ArrayList;
 import java.util.Collection;

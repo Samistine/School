@@ -1,5 +1,5 @@
-import com.samistine.school.java2.project.Student;
-import com.samistine.school.java2.project.StudentDAO;
+import com.samistine.school.java2.project.buisness.Student;
+import com.samistine.school.java2.project.data.StudentDAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

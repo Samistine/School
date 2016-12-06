@@ -13,7 +13,7 @@
  * @author Samuel Seidel <samuel@samistine.com>
  * @version 1.0
  */
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.gui;
 
 import java.util.function.Function;
 

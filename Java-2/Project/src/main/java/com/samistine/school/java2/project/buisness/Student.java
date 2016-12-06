@@ -1,4 +1,4 @@
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.buisness;
 
 import java.io.Serializable;
 import java.util.Objects;

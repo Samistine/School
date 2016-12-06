@@ -1,5 +1,6 @@
-package com.samistine.school.java2.project;
+package com.samistine.school.java2.project.data;
 
+import com.samistine.school.java2.project.buisness.Student;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
