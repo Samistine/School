@@ -8,8 +8,19 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
+ * Class: CIST 2372 Java II
+ * Quarter: Fall 2016
+ * Instructor: Dave Busse
+ * Project: Project
+ * Date: Created December 5, 2016 11:07:00 AM
  *
- * @author samistine
+ * By turning in this code, I Pledge:
+ * 1. That I have completed the programming assignment independently.
+ * 2. I have not copied the code from a student or any source other than my own.
+ * 3. I have not given my code to any student.
+ *
+ * @author Samuel Seidel <samuel@samistine.com>
+ * @version 1.0
  */
 public final class StudentDAO {
     
@@ -29,14 +40,14 @@ public final class StudentDAO {
         try (Connection conn = getConnection();
                 PreparedStatement pstmt = conn.prepareCall("INSERT INTO student "
                         + "("
-                        + " id,"
+                        + " stuId,"
                         + " firstName,"
                         + " mi,"
                         + " lastName,"
                         + " phone,"
                         + " birthDate,"
                         + " street,"
-                        + " zip,"
+                        + " zipCode,"
                         + " deptId"
                         + ")"
                         + "VALUES (?,?,?,?,?,?,?,?,?)")) {
@@ -79,7 +90,7 @@ public final class StudentDAO {
      */
     public boolean deleteStudent(String stuId) {
         try (Connection conn = getConnection();
-                PreparedStatement pstmt = conn.prepareCall("DELETE FROM student WHERE id=?")) {
+                PreparedStatement pstmt = conn.prepareCall("DELETE FROM student WHERE stuId=?")) {
 
             /* Set Param */
             pstmt.setString(1, stuId);
@@ -144,9 +155,9 @@ public final class StudentDAO {
                         + "phone=?,"
                         + "birthDate=?,"
                         + "street=?,"
-                        + "zip=?,"
+                        + "zipCode=?,"
                         + "deptId=?"
-                        + " WHERE id=?")) {
+                        + " WHERE stuId=?")) {
 
             /* Set Params */
             pstmt.setString(1, aStudent.getFirstName());
@@ -192,7 +203,7 @@ public final class StudentDAO {
      */
     public Collection<Student> selectStudents(String stuId) {
         try (Connection conn = getConnection();
-                PreparedStatement pstmt = conn.prepareCall("SELECT * FROM student WHERE id=?")) {
+                PreparedStatement pstmt = conn.prepareCall("SELECT * FROM student WHERE stuId like ?")) {
 
             /* Set Param */
             pstmt.setString(1, stuId);
@@ -202,14 +213,14 @@ public final class StudentDAO {
                 Collection<Student> students = new ArrayList<>();
                 
                 while (rs.next()) {
-                    String id = rs.getString("id");
+                    String id = rs.getString("stuId");
                     String firstName = rs.getString("firstName");
                     char mi = rs.getString("mi").charAt(0);
                     String lastName = rs.getString("lastName");
                     String phone = rs.getString("phone");
                     String birthDate = rs.getString("birthDate");
                     String street = rs.getString("street");
-                    String zip = rs.getString("zip");
+                    String zip = rs.getString("zipCode");
                     String deptId = rs.getString("deptId");
 
                     //Create Student

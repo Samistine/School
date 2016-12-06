@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.samistine.school.java2.project;
 
 import java.sql.Connection;
@@ -10,10 +5,20 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
+ * Class: CIST 2372 Java II
+ * Quarter: Fall 2016
+ * Instructor: Dave Busse
+ * Project: Project
+ * Date: Created December 5, 2016 11:07:00 AM
  *
- * @author paperspace
+ * By turning in this code, I Pledge:
+ * 1. That I have completed the programming assignment independently.
+ * 2. I have not copied the code from a student or any source other than my own.
+ * 3. I have not given my code to any student.
+ *
+ * @author Samuel Seidel <samuel@samistine.com>
+ * @version 1.0
  */
-//Inlined for delivery to blackboard
 class DB {
     
     private static DB INSTANCE = new DB();

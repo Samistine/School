@@ -1,12 +1,9 @@
 package com.samistine.school.java2.project;
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.HeadlessException;
 import java.awt.LayoutManager;
-import java.awt.Toolkit;
-import java.awt.Window;
 import java.util.Collection;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -18,19 +15,23 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
 /**
- * Class: CIST 2372 Java II Quarter: Fall 2016 Instructor: Dave Busse Project:
- * Unit03 Date: Created Sep 13, 2016 7:18:53 PM
+ * Class: CIST 2372 Java II
+ * Quarter: Fall 2016
+ * Instructor: Dave Busse
+ * Project: Unit03
+ * Date: Created Sep 13, 2016 7:18:53 PM
  *
- * By turning in this code, I Pledge: 1. That I have completed the programming
- * assignment independently. 2. I have not copied the code from a student or any
- * source. 3. I have not given my code to any student.
+ * By turning in this code, I Pledge: 
+ * 1. That I have completed the programming assignment independently. 
+ * 2. I have not copied the code from a student or any source. 
+ * 3. I have not given my code to any student.
  *
  * @author Samuel Seidel <samuel@samistine.com>
  * @version 1.0
  */
 public class DisplayStudent extends JFrame {
 
-    StudentDAO studentDAO;
+    StudentDAO studentDAO = new StudentDAO();
 
     String search_ssn;
 
@@ -118,11 +119,14 @@ public class DisplayStudent extends JFrame {
                     System.out.println("search");
                     /* Ask the user for search term */
                     search_ssn = JOptionPane.showInputDialog(rootPane, "Please enter a search string", "Student Search", JOptionPane.QUESTION_MESSAGE);
-
+                    
+                    //Handle case where user close search dialog
+                    if (search_ssn == null) return; 
+                    
                     if (!search_ssn.matches("^[0-9,%]*$")) {
                         JOptionPane.showConfirmDialog(rootPane,
                                 "Input can only contain numbers and wildcards e.g. '%'",
-                                "Invalid Input", JOptionPane.ERROR_MESSAGE);
+                                "Invalid Input",JOptionPane.DEFAULT_OPTION , JOptionPane.ERROR_MESSAGE);
                         return;
                     }
 
@@ -136,11 +140,18 @@ public class DisplayStudent extends JFrame {
 
                     /* Query DB */
                     Collection<Student> students = studentDAO.selectStudents(search_ssn);
-
-                    /* Add the students to the displayed(GUI) table */
-                    studentPanel.manager().add(students);
-                    /* Set the total students status pane */
-                    statusPanel.setStudents(0);
+                    
+                    if (students != null) {
+                        /* Add the students to the displayed(GUI) table */
+                        studentPanel.manager().add(students);
+                        /* Set the total students status pane */
+                        statusPanel.setStudents(students.size());
+                    } else {
+                         JOptionPane.showConfirmDialog(rootPane,
+                                "There were no students found for " + search_ssn,
+                                "No Results Found",JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+                        
+                    }
                 });
 
                 /* Clear Button -> Click Logic */
