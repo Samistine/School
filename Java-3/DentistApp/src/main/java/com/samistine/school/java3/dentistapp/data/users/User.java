@@ -7,6 +7,11 @@ package com.samistine.school.java3.dentistapp.data.users;
  */
 public interface User {
 
+    enum Type {
+        PATIENT,
+        DENTIST;
+    }
+
     /**
      * Get the unique ID of the user.
      *
@@ -41,5 +46,12 @@ public interface User {
      * @return email
      */
     String getEmail();
+
+    void setPassword(String password);
+    void setFirstName(String firstName);
+    void setLastName(String lastName);
+    void setEmail(String email);
+
+    Type type();
 
 }

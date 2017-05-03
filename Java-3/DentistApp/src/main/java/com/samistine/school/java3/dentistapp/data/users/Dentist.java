@@ -15,10 +15,13 @@ public interface Dentist extends User {
      */
     String getOffice();
 
+    void setOffice(String office);
+
     /**
      * Get the appointments the dentist has scheduled.
      *
      * @return appointments
      */
     Appointments appointments();
+
 }

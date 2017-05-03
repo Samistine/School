@@ -4,9 +4,46 @@
     Author     : Samuel Seidel
 --%>
 
+<%@page import="com.samistine.school.java3.dentistapp.db.SQLQueries"%>
+<%@page import="com.samistine.school.java3.dentistapp.data.users.User"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%
+    login:
+    {
+        if (request.getParameter("login") != null) {
+            String username = request.getParameter("username");
+            String password = request.getParameter("password");
+            if (username == null || username.isEmpty() || password == null || password.isEmpty()) {
+                pageContext.setAttribute("status", "error");
+                pageContext.setAttribute("errorMessage", "Username or Password was missing from your request");
+                break login;
+            }
+
+            char userType = username.charAt(0);
+            User user;
+
+            if (userType == 'A') { //Patient
+                user = SQLQueries.getPatient(username);
+            } else { //Dentist
+                if (userType != 'D') break login;
+                user = SQLQueries.getDentist(username);
+            }
+
+            if (password.equals(user.getPassword())) {
+                //Good Login
+                session.setAttribute("user", user);
+                response.sendRedirect("Home");
+            }
+
+        }
+    }
+
+%>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -95,7 +132,7 @@
                             </c:otherwise>
                         </c:choose>
 
-                        <form class="pagination-centered" action="LoginServlet" method="POST" >
+                        <form class="pagination-centered" method="POST" >
                             <div class="control-group">
                                 <div class="controls">
                                     <input name="username" type="text" placeholder="Account ID" required="required" autofocus="true" title="Starts with a P for patients, D for dentists">
@@ -110,7 +147,7 @@
 
                             <div class="control-group" >
                                 <div class="controls">
-                                    <button type="submit" class="btn">Login</button>
+                                    <button type="submit" name="login" class="btn">Login</button>
                                 </div>
                             </div>
                         </form>

@@ -4,13 +4,87 @@
     Author     : Samuel Seidel
 --%>
 
+<%@page import="com.samistine.school.java3.dentistapp.data.users.Dentist"%>
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Map"%>
+<%@page import="java.util.Arrays"%>
+<%@page import="com.samistine.school.java3.dentistapp.data.Procedure"%>
+<%@page import="java.util.List"%>
+<%@page import="com.samistine.school.java3.dentistapp.data.users.Patient"%>
 <%@page import="com.samistine.school.java3.dentistapp.data.users.User"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="com.samistine.school.java3.dentistapp.db.SQLQueries"%>
 <%@page import="com.samistine.school.java3.dentistapp.data.Appointments"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%!
+    static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
+%>
+
+<%
+    User user = (User) session.getAttribute("user");
+    pageContext.setAttribute("patient", user);
+
+    try {
+        pageContext.setAttribute("dentists", SQLQueries.getDentists());
+        pageContext.setAttribute("procedures", SQLQueries.getProcedures());
+    } catch (SQLException ex) {
+        out.print(ex);
+        ex.printStackTrace();
+    }
+
+    if (request.getParameter("changeSettings") != null) {
+        Patient patient = (Patient) pageContext.getAttribute("patient");
+
+        String firstName = request.getParameter("firstName");
+        if (firstName != null) patient.setFirstName(firstName);
+
+        String lastName = request.getParameter("lastName");
+        if (lastName != null) patient.setLastName(lastName);
+
+        String email = request.getParameter("email");
+        if (email != null) patient.setEmail(email);
+
+        String password = request.getParameter("password");
+        if (password != null) patient.setPassword(password);
+
+        String address = request.getParameter("address");
+        if (address != null) patient.setAddress(address);
+
+        String insurance = request.getParameter("insurance");
+        if (insurance != null) patient.setInsurance(insurance);
+    }
+
+    if (request.getParameter("editAppointment") != null) {
+        Patient patient = (Patient) pageContext.getAttribute("patient");
+
+        String _date = request.getParameter("date");
+        String _dentist = request.getParameter("dentist");
+        String _procedure = request.getParameter("procedure");
+        log("editAppointment: " + _date + " " + _dentist + " " + _procedure);
+
+        Date date = sdf.parse(_date);
+        Dentist dentist = SQLQueries.getDentist(_dentist);
+        Procedure procedure = SQLQueries.getProcedure(_procedure);
+
+        patient.setAppointment(dentist, procedure, date);
+    }
+
+    if (request.getParameter("deleteAppointment") != null) {
+        Patient patient = (Patient) pageContext.getAttribute("patient");
+        patient.deleteAppointment();
+    }
+
+//    Map<String, String[]> tt = request.getParameterMap();
+//    for (Map.Entry<String, String[]> r : tt.entrySet()) {
+//        out.println(r.getKey() + ": " + Arrays.toString(r.getValue()));
+//    }
+
+%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,9 +96,9 @@
         <meta name="description" content="The Sam o' Bank Login">
 
 
-        <link href="../res/bootstrap.v2/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="../res/bootstrap.v2/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-        <link href="../res/style.css" rel="stylesheet" type="text/css">
+        <link href="res/bootstrap.v2/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="res/bootstrap.v2/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <link href="res/style.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="initial-scale=1">
 
         <style>
@@ -32,7 +106,7 @@
                 margin-bottom: 20px;
             }
 
-            #Table, #AccountManagement {
+            #Appointments, #AccountManagement {
                 border-radius: 5px;
                 margin: auto;
                 min-width: 280px;
@@ -44,13 +118,12 @@
                 background: linear-gradient(to left, #4CA1AF , #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             }
 
-            #Table {
+            #Appointments {
                 border-bottom-left-radius: 0;
                 border-bottom-right-radius: 0;
             }
 
             #AccountManagement {
-                max-width: 800px;
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
             }
@@ -85,20 +158,11 @@
         </style>
     </head>
     <body>
-        <%
-            try {
-                User user = SQLQueries.getPatient("A908");
-                application.setAttribute("patient", user);
-            } catch (SQLException ex) {
-                out.print(ex);
-                ex.printStackTrace();
-            }
-        %>
 
         <header>
             <div class="logo">
                 <h1>
-                    <a href="./"><img src="../res/images/safe.svg" height="130" width="130" alt="Safe (Logo)"></a>
+                    <a href="./"><img src="res/images/logo.svg" height="130" width="130" alt="Safe (Logo)"></a>
                 </h1>
                 <div class="border"></div>
             </div>
@@ -107,56 +171,55 @@
         <main>
             <div class="site">
 
-                <div>
-                    <h2 class="subtitle">Appointment for ${patient.firstName} ${patient.lastName}</h2>
-                    <div class="pagination-centered" >
+                <h2 class="subtitle">Appointment for ${patient.firstName} ${patient.lastName}</h2>
+                <div class="pagination-centered" >
 
-                        <div id="Table" class="pagination-centered text-center">
-                            <table class="table table-striped table-condensed" data-toggle="table">
-                                <thead>
-                                    <tr>
-                                        <th>Date</th>
-                                        <th>Dentist</th>
-                                        <th>Procedure</th>
-                                        <th>Cost</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <c:set var="appointment" value="${patient.appointment}"/>
-                                    <tr>
-                                        <td><fmt:formatDate value="${appointment.date}" type="both" dateStyle="LONG" timeStyle="SHORT"></fmt:formatDate></td>
-                                        <td><c:out value="${appointment.dentist.firstName} ${appointment.dentist.lastName}"></c:out></td>
-                                        <td><c:out value="${appointment.procedure.description}"></c:out></td>
-                                        <td><fmt:formatNumber value="${appointment.procedure.cost}" type="currency"/></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
+                    <div id="Appointments" class="pagination-centered text-center">
+                        <table class="table table-striped table-condensed" data-toggle="table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Dentist</th>
+                                    <th>Procedure</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <c:set var="appointment" value="${patient.appointment}"/>
+                                <tr>
+                                    <td><fmt:formatDate value="${appointment.date}" type="both" dateStyle="LONG" timeStyle="SHORT" /></td>
+                                    <td><c:out value="${appointment.dentist.firstName} ${appointment.dentist.lastName}" /></td>
+                                    <td><c:out value="${appointment.procedure.description}" /></td>
+                                    <td><fmt:formatNumber value="${appointment.procedure.cost}" type="currency"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                    <div id="AccountManagement" style="text-align: center">
-                        <h2 class="subtitle">Account Management</h2>
-                        <div class="pagination-centered" >
-                            <form class="form-inline flex-container">
+                </div>
 
+                <div id="AccountManagement" style="text-align: center">
+                    <h2 class="subtitle">Account Management</h2>
+                    <div class="pagination-centered" >
+                        <form class="form-inline" method="POST">
 
+                            <div class="flex-container">
                                 <fieldset class="flex-item">
                                     <legend>Details</legend>
 
                                     <div class="control-group">
                                         <label class="control-label" for="firstName">First Name </label>
-                                        <input class="span3" id="firstName" value="${patient.firstName}">
+                                        <input class="span3" name="firstName" id="firstName" value="${fn:escapeXml(patient.firstName)}">
                                     </div>
 
                                     <div class="control-group">
                                         <label class="control-label" for="lastName">Last Name </label>
-                                        <input class="span3" id="lastName" value="${patient.lastName}">
+                                        <input class="span3" name="lastName" id="lastName" value="${fn:escapeXml(patient.lastName)}">
                                     </div>
 
                                     <div class="control-group">
                                         <label class="control-label" for="address">Address </label>
-                                        <input class="span3" id="address" value="${patient.address}">
+                                        <input class="span3" name="address" id="address" value="${fn:escapeXml(patient.address)}">
                                     </div>
                                 </fieldset>
 
@@ -165,17 +228,17 @@
 
                                     <div class="control-group">
                                         <label class="control-label" for="email">Email </label>
-                                        <input class="span3" id="email" value="${patient.email}">
+                                        <input class="span3" name="email" id="email" value="${fn:escapeXml(patient.email)}">
                                     </div>
 
                                     <div class="control-group">
                                         <label class="control-label" for="password">Password </label>
-                                        <input class="span3" id="password" value="${patient.password}">
+                                        <input class="span3" name="password" id="password" value="${fn:escapeXml(patient.password)}">
                                     </div>
 
                                     <div class="control-group">
                                         <label class="control-label" for="id">Id </label>
-                                        <input class="span3" id="id" disabled="true" value="${patient.id}">
+                                        <input class="span3" name="id" id="id" disabled="true" value="${fn:escapeXml(patient.id)}">
                                     </div>
                                 </fieldset>
 
@@ -183,16 +246,72 @@
                                     <legend>Insurance</legend>
                                     <div class="control-group">
                                         <label class="control-label" for="insurance">Insurance </label>
-                                        <input class="span3" id="insurance" value="${patient.insurance}">
+                                        <input class="span3" name="insurance" id="insurance" value="${fn:escapeXml(patient.insurance)}">
                                     </div>
                                 </fieldset>
+                            </div>
 
-                            </form>
-                        </div>
+                            <div class="form-actions">
+                                <button type="submit" name="changeSettings" class="btn btn-warning">Save changes</button>
+                                <!--<button type="button" class="btn">Cancel</button>-->
+                            </div>
+                        </form>
                     </div>
-
-
                 </div>
+
+                <div id="Appointment" style="text-align: center">
+                    <h2 class="subtitle">Manage Appointment</h2>
+                    <div class="pagination-centered" >
+                        <form class="form-inline" method="POST">
+                            <fieldset>
+                                <legend>Appointment</legend>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="date">Date </label>
+                                    <input class="span4" type="datetime-local" name="date" id="date" value="<fmt:formatDate value="${patient.appointment.date}" pattern="yyyy-MM-dd'T'HH:mm" />">
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="dentist">Dentist </label>
+                                    <select class="span4" name="dentist" id="dentist">
+                                        <c:forEach var="dentist" items="${dentists}">
+                                            <c:choose>
+                                                <c:when test="${dentist eq patient.appointment.dentist}">
+                                                    <option selected="true" value="${fn:escapeXml(dentist.id)}">${fn:escapeXml(dentist.firstName)} ${fn:escapeXml(dentist.lastName)}</option>
+                                                </c:when>
+                                                <c:otherwise>
+                                                    <option value="${fn:escapeXml(dentist.id)}">${fn:escapeXml(dentist.firstName)} ${fn:escapeXml(dentist.lastName)}</option>
+                                                </c:otherwise>
+                                            </c:choose>
+                                        </c:forEach>
+                                    </select>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="procedure">Procedure </label>
+                                    <select class="span4" name="procedure" id="procedure">
+                                        <c:forEach var="procedure" items="${procedures}">
+                                            <c:choose>
+                                                <c:when test="${procedure eq patient.appointment.procedure}">
+                                                    <option selected="true" value="${fn:escapeXml(procedure.code)}">${fn:escapeXml(procedure.description)}</option>
+                                                </c:when>
+                                                <c:otherwise>
+                                                    <option value="${fn:escapeXml(procedure.code)}">${fn:escapeXml(procedure.description)}</option>
+                                                </c:otherwise>
+                                            </c:choose>
+                                        </c:forEach>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            <div class="form-actions">
+                                <button type="submit" name="editAppointment" class="btn btn-warning">Update Appointment</button>
+                                <button type="submit" name="deleteAppointment" class="btn btn-danger">Delete Appointment</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <a class="btn btn-danger btn-logout" href="Logout">Logout</a>
             </div>
         </main>
     </body>

@@ -29,7 +29,7 @@ public final class SQLAppointment implements Appointment {
     public SQLAppointment(ResultSet rs) throws SQLException {
         Date lDate;
         try {
-            lDate = DF_PARSE.parse(rs.getString("apptDateTime").replaceAll("(\\d)am", "$1 AM").replaceAll("(\\d)pm", "$1 PM"));
+            lDate = DF_PARSE.parse(rs.getString("apptDateTime").replaceAll("(\\d)(am|AM)", "$1 AM").replaceAll("(\\d)(pm|PM)", "$1 PM"));
         } catch (ParseException ex) {
             Logger.getLogger(SQLAppointment.class.getName()).log(Level.SEVERE, null, ex);
             lDate = new Date(0);

@@ -32,6 +32,10 @@ public interface Patient extends User {
      */
     Appointment getAppointment();
 
+    void setAddress(String address);
+
+    void setInsurance(String insurance);
+
     /**
      * Adds, or updates if existing, an appointment for the patient.
      *

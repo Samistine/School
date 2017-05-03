@@ -5,7 +5,10 @@ import com.samistine.school.java3.dentistapp.data.Appointments;
 import com.samistine.school.java3.dentistapp.data.Procedure;
 import com.samistine.school.java3.dentistapp.data.users.Dentist;
 import com.samistine.school.java3.dentistapp.data.users.Patient;
+import com.samistine.school.java3.dentistapp.db.DBHandler;
 import com.samistine.school.java3.dentistapp.db.SQLQueries;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
@@ -18,8 +21,8 @@ import java.util.logging.Logger;
  */
 public final class SQLPatient implements Patient {
 
-    private final String id, password, firstName, lastName, email;
-    private final String address, insurance;
+    private String id, password, firstName, lastName, email;
+    private String address, insurance;
 
     public SQLPatient(ResultSet rs) throws SQLException {
         this.id = rs.getString("patId");
@@ -68,6 +71,11 @@ public final class SQLPatient implements Patient {
     }
 
     @Override
+    public Type type() {
+        return Type.PATIENT;
+    }
+
+    @Override
     public Appointment getAppointment() {
         try {
             Appointments appointmentsWith = SQLQueries.getAppointmentsWith(this);
@@ -95,6 +103,70 @@ public final class SQLPatient implements Patient {
             SQLQueries.deleteAppointmentsWith(this);
         } catch (SQLException ex) {
             Logger.getLogger(getClass().getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    @Override
+    public void setPassword(String password) {
+        if (this.password.equals(password)) return;
+        boolean result = setSomeSQL("passwd", password, "setPassword", false);
+        if (result) this.password = password;
+    }
+
+    @Override
+    public void setFirstName(String firstName) {
+        if (this.firstName.equals(firstName)) return;
+        boolean result = setSomeSQL("firstName", firstName, "setFirstName", true);
+        if (result) this.firstName = firstName;
+    }
+
+    @Override
+    public void setLastName(String lastName) {
+        if (this.lastName.equals(lastName)) return;
+        boolean result = setSomeSQL("lastName", lastName, "setLastName", true);
+        if (result) this.lastName = lastName;
+    }
+
+    @Override
+    public void setEmail(String email) {
+        if (this.email.equals(email)) return;
+        boolean result = setSomeSQL("email", email, "setEmail", true);
+        if (result) this.email = email;
+    }
+
+    @Override
+    public void setAddress(String address) {
+        if (this.address.equals(address)) return;
+        boolean result = setSomeSQL("addr", address, "setAddress", true);
+        if (result) this.address = address;
+    }
+
+    @Override
+    public void setInsurance(String insurance) {
+        if (this.insurance.equals(insurance)) return;
+        boolean result = setSomeSQL("insCo", insurance, "setInsurance", true);
+        if (result) this.insurance = insurance;
+    }
+
+    boolean setSomeSQL(String field, Object newValue, String debugMethodName, boolean showValue) {
+        try {
+            Connection connection = DBHandler.getConnection();
+            PreparedStatement pstmt = connection.prepareCall(""
+                    + "UPDATE Patients "
+                    + " SET " + field + " = ? "
+                    + "  WHERE patId = ? ");
+
+            pstmt.setObject(1, newValue);
+            pstmt.setString(2, this.id);
+
+            int rowCount = pstmt.executeUpdate();
+
+            Logger.getLogger(getClass().getName()).log(Level.FINEST, "SQLPatient[id: {0}]::{1}( {2}: {3} ), {4} row(s) updated",
+                    new Object[]{this.id, debugMethodName, field, showValue ? newValue : "******", rowCount});
+            return true;
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+            return false;
         }
     }
 
